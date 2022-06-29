@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="/js/jquery.js" th:src="@{/js/jquery.js}"></script>
+<script type="text/javascript" src="/js/spark-md5.min.js" th:src="@{/js/spark-md5.min.js}"></script>
+
+<input type="file" name="file" id="file">
+<script>
+    const baseUrl = "http://localhost:18002";
+
+    /**
+     * 分块计算文件的md5值
+     * @param file 文件
+     * @param chunkSize 分片大小
+     * @returns Promise
+     */
+    function calculateFileMd5(file, chunkSize) {
+        return new Promise((resolve, reject) => {
+            let blobSlice = File.prototype.slice || File.prototype.mozSlice || File.prototype.webkitSlice;
+            let chunks = Math.ceil(file.size / chunkSize);
+            let currentChunk = 0;
+            let spark = new SparkMD5.ArrayBuffer();
+            let fileReader = new FileReader();
+
+            fileReader.onload = function (e) {
+                spark.append(e.target.result);
+                currentChunk++;
+                if (currentChunk < chunks) {
+                    loadNext();
+                } else {
+                    let md5 = spark.end();
+                    resolve(md5);
+                }
+            };
+
+            fileReader.onerror = function (e) {
+                reject(e);
+            };
+
+            function loadNext() {
+                let start = currentChunk * chunkSize;
+                let end = start + chunkSize;
+                if (end > file.size) {
+                    end = file.size;
+                }
+                fileReader.readAsArrayBuffer(blobSlice.call(file, start, end));
+            }
+
+            loadNext();
+        });
+    }
+
+    /**
+     * size 2097152 must be greater than 5242880
+     * 分块计算文件的md5值，默认分片大小为5242880（5M）
+     * @param file 文件
+     * @returns Promise
+     */
+    function calculateFileMd5ByDefaultChunkSize(file) {
+        return calculateFileMd5(file, 5 * 1024 * 1024);
+    }
+
+    /**
+     * 获取文件的后缀名
+     */
+    function getFileType(fileName) {
+        return fileName.substr(fileName.lastIndexOf(".") + 1).toLowerCase();
+    }
+
+
+
+    /**
+     * 根据文件的md5值判断文件是否已经上传过了
+     *
+     * @param md5 文件的md5
+     * @param file 准备上传的文件
+     */
+    function checkMd5(md5, file) {
+        // 请求数据库，查询md5是否存在
+        $.ajax({
+            url: baseUrl + "/check",
+            type: "GET",
+            data: {
+                md5: md5
+            },
+            async: true, //异步
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                // 文件已经存在了，无需上传
+                if (msg.status === 20000) {
+                    console.log("文件已经存在了，无需上传")
+                } else if (msg.status === 40004) {
+                    // 文件不存在需要上传
+                    console.log("文件不存在需要上传")
+                    PostFile(file, 0, md5);
+                } else {
+                    console.log('未知错误');
+                }
+            }
+        })
+    }
+
+
+    /**
+     * 将文件进行分片
+     * @param file 上传的文件
+     * @param md5 {string} 文件的md5值
+     * @param slicesCount {number} 一个数据包里的分片数量
+     */
+    const sliceFile = (file, md5, slicesCount) => {
+        const name = file.name; //文件名
+        const size = file.size; //总大小,
+        const shardSize = 5 * 1024 * 1024; //以5MB为一个分片,每个分片的大小
+        const shardCount = Math.ceil(size / shardSize); //总片数
+        let minSlicesCount = shardCount >= slicesCount ? slicesCount : shardCount; // 最少分片数量
+        let surplusShardCount = shardCount
+
+        let sliceIndex = 1;
+        let currentSlices = 0;
+
+        /*  构建form表单进行提交  */
+        let form = new FormData();
+
+        for (let i = 0; i < shardCount; i += 5) {
+
+            for (let j = 0; j < minSlicesCount; j++, currentSlices++) {
+                let start = currentSlices * shardSize;
+                let end = start + shardSize;
+                let packet = file.slice(start, end); //将文件进行切片
+                form.append(`data_${currentSlices}`, packet); //slice方法用于切出文件的一部分
+            }
+
+            surplusShardCount -= minSlicesCount; // 剩余的分片数量 = 总数 - 已封装的数量
+            if (surplusShardCount <= minSlicesCount) {
+                minSlicesCount = shardCount - (i + 5);
+            }
+
+            form.append('index', (sliceIndex++).toString()); //当前是第几片
+            form.append('md5', md5); // 前端生成uuid作为标识符传个后台每个文件都是一个uuid防止文件串了
+            form.append('name', name);
+            form.append('totalSize', size);
+            form.append('total', shardCount.toString()); //总片数
+
+            sendFileToRemote(baseUrl + '/arrFrom', form);
+            form = new FormData();
+        }
+    };
+
+    /**
+     * 将文件进行分片
+     * @param url {string} api地址
+     * @param formData {FormData} 分片的数据包
+     */
+    const sendFileToRemote = (url, formData) => {
+        $.ajax({
+            url,
+            type: 'POST',
+            data: formData,
+            async: true, //异步
+            dataType: 'json',
+            processData: false, //很重要，告诉jquery不要对form进行处理
+            contentType: false, //很重要，指定为false才能形成正确的Content-Type
+            success: function (msg) {
+                alert('success');
+            },
+        });
+    };
+
+    // 文件选择之后就计算文件的md5值
+    document.getElementById("file").addEventListener("change", function () {
+        let file = this.files[0];
+        calculateFileMd5ByDefaultChunkSize(file).then(e => {
+            // 获取到文件的md5
+            let md5 = e;
+            console.log("md5", md5);
+            // checkMd5(md5, file)
+            // sliceFile(file, md5, 5);
+            PostSliceFile(file, md5);
+        }).catch(e => {
+            // 处理异常
+            console.error(e);
+        });
+    });
+
+    /**
+     * 执行分片上传
+     * @param file 上传的文件
+     * @param md5 文件的md5值
+     */
+    function PostSliceFile(file, md5) {
+        let fileName = file.name,                           //文件名
+            fileSize = file.size,                           //总大小,
+            shardSize = 5 * 1024 * 1024,                //以5MB为一个分片,每个分片的大小
+            shardCount = Math.ceil(fileSize / shardSize);   //总片数
+        console.log("fileSize",fileSize);
+        /**
+         * 模拟
+         * int shardCount = 126
+         * */
+        var i = 0;//当前第几片
+        while (i <= shardCount) {
+
+            /*  构建form表单进行提交  */
+            let form = new FormData();
+            form.append("md5", md5);// 文件md5
+            form.append("fileName", fileName);
+            form.append("fileSize", fileSize); //文件总大小
+            form.append("shardCount", shardCount); //总片数
+            console.log("shardCount", shardCount);
+
+            //最后一个包
+            if (i + 4  > shardCount) {
+                let last = shardCount - i;
+                for (let j = 0; j < last; j++, i++) {
+                    let start = i * shardSize;
+                    let end = start + shardSize;
+                    let packet = file.slice(start, end);  //将文件进行切片
+                    form.append('data', packet, i); //slice方法用于切出文件的一部分
+                }
+                sendFileToRemote(baseUrl + '/arrFrom', form);
+                break;
+            }else {
+                for (let j = 0; j < 4; j++, i++) {
+                    let start = i * shardSize;
+                    let end = start + shardSize;
+                    let packet = file.slice(start, end);  //将文件进行切片
+                    //4片一个请求
+                    form.append('data', packet); //slice方法用于切出文件的一部分
+                }
+                sendFileToRemote(baseUrl + '/arrFrom', form);
+            }
+        }
+
+    }
+
+
+    /**
+     * 合并文件
+     * @param shardCount 分片数
+     * @param fileName 文件名
+     * @param md5 文件md值
+     * @param fileType 文件类型
+     * @param fileSize 文件大小
+     */
+    function merge(shardCount, fileName, md5, fileType, fileSize) {
+        $.ajax({
+            url: baseUrl + "/merge",
+            type: "GET",
+            data: {
+                shardCount: shardCount,
+                fileName: fileName,
+                md5: md5,
+                fileType: fileType,
+                fileSize: fileSize
+            },
+            // timeout:"10000",  //超时10秒
+            async: true, //异步
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+            }
+        })
+    }
+</script>
+
+</body>
+</html>
+

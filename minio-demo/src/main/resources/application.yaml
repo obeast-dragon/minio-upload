@@ -1,0 +1,39 @@
+server:
+  port: 18002
+spring:
+  application:
+    name: minio-application
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+      enabled: true
+  redis:
+    database: 0
+    host: 175.178.183.32
+    port: 6379
+    jedis:
+      pool:
+        max-active: 200
+        max-wait: -1
+        max-idle: 10
+        min-idle: 0
+    timeout: 2000
+  thymeleaf:
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML5
+    #编码 可不用配置
+    encoding: UTF-8
+    #开发配置为false,避免修改模板还要重启服务器
+    cache: false
+    #配置模板路径，默认是templates，可以不用配置
+    prefix: classpath:/templates/
+    servlet:
+      content-type: text/html
+minio:
+  endpoint: http://175.178.183.32:9000
+  accessKey: admin
+  secretKey: 12345678
+  bucketName: test
+
+

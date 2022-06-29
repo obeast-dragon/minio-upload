@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "minio",
+      "type": "com.minio.config.MinioConfig",
+      "sourceType": "com.minio.config.MinioConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "minio.access-key",
+      "type": "java.lang.String",
+      "description": "Access key就像用户ID，可以唯一标识你的账户。",
+      "sourceType": "com.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.bucket-name",
+      "type": "java.lang.String",
+      "description": "bucketName是你设置的桶的名称",
+      "sourceType": "com.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "description": "对象存储服务的URL",
+      "sourceType": "com.minio.config.MinioConfig"
+    },
+    {
+      "name": "minio.secret-key",
+      "type": "java.lang.String",
+      "description": "Secret key是你账户的密码。",
+      "sourceType": "com.minio.config.MinioConfig"
+    }
+  ],
+  "hints": []
+}

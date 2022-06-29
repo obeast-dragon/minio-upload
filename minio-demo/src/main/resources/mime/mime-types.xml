@@ -1,0 +1,3538 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mime-info>
+  <mime-type type="application/vnd.ms-htmlhelp">
+    <glob>chm</glob>
+  </mime-type>
+  <mime-type type="application/x-font-snf">
+    <glob>snf</glob>
+  </mime-type>
+  <mime-type type="application/atom+xml">
+    <glob>atom</glob>
+  </mime-type>
+  <mime-type type="application/vnd.3gpp.pic-bw-var">
+    <glob>pvb</glob>
+  </mime-type>
+  <mime-type type="text/x-csharp">
+    <glob>cs</glob>
+  </mime-type>
+  <mime-type type="text/x-log">
+    <glob>log</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kidspiration">
+    <glob>kia</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ufdl">
+    <glob>ufd</glob>
+    <glob>ufdl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.antix.game-component">
+    <glob>atx</glob>
+  </mime-type>
+  <mime-type type="application/x-iso9660-image">
+    <glob>iso</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dgn">
+    <glob>dgn</glob>
+    <glob>dgnlib</glob>
+    <glob>cel</glob>
+  </mime-type>
+  <mime-type type="audio/x-flac">
+    <glob>flac</glob>
+  </mime-type>
+  <mime-type type="application/font-tdpfr">
+    <glob>pfr</glob>
+  </mime-type>
+  <mime-type type="text/x-vbdotnet">
+    <glob>vb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.3m.post-it-notes">
+    <glob>pwn</glob>
+  </mime-type>
+  <mime-type type="application/x-plist">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="application/x-ibooks+zip">
+    <glob>ibooks</glob>
+  </mime-type>
+  <mime-type type="application/vnd.crick.clicker.wordbank">
+    <glob>clkw</glob>
+  </mime-type>
+  <mime-type type="chemical/x-cmdf">
+    <glob>cmdf</glob>
+  </mime-type>
+  <mime-type type="application/x-zoo">
+    <glob>zoo</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kenameaapp">
+    <glob>htke</glob>
+  </mime-type>
+  <mime-type type="application/rss+xml">
+    <glob>rss</glob>
+  </mime-type>
+  <mime-type type="application/x-mscardfile">
+    <glob>crd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujitsu.oasys">
+    <glob>oas</glob>
+  </mime-type>
+  <mime-type type="application/vnd.visionary">
+    <glob>vis</glob>
+  </mime-type>
+  <mime-type type="text/x-modula">
+    <glob>m3</glob>
+    <glob>i3</glob>
+    <glob>mg</glob>
+    <glob>ig</glob>
+  </mime-type>
+  <mime-type type="text/html">
+    <glob>html</glob>
+    <glob>htm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-freelance">
+    <glob>pre</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.template">
+    <glob>vstx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-artgalry">
+    <glob>cil</glob>
+  </mime-type>
+  <mime-type type="application/vnd.geometry-explorer">
+    <glob>gex</glob>
+    <glob>gre</glob>
+  </mime-type>
+  <mime-type type="application/vnd.genomatix.tuxedo">
+    <glob>txd</glob>
+  </mime-type>
+  <mime-type type="chemical/x-cdx">
+    <glob>cdx</glob>
+  </mime-type>
+  <mime-type type="audio/x-ms-wma">
+    <glob>wma</glob>
+  </mime-type>
+  <mime-type type="application/vnd.commonspace">
+    <glob>csp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujixerox.docuworks.binder">
+    <glob>xbd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.mbk">
+    <glob>mbk</glob>
+  </mime-type>
+  <mime-type type="application/scvp-cv-request">
+    <glob>scq</glob>
+  </mime-type>
+  <mime-type type="application/x-wais-source">
+    <glob>src</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-mddb">
+    <glob>sm7</glob>
+    <glob>sas7bmdb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.accpac.simply.imp">
+    <glob>imp</glob>
+  </mime-type>
+  <mime-type type="application/x-filemaker">
+    <glob>fp7</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.air-application-installer-package+zip">
+    <glob>air</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-wordpro">
+    <glob>lwp</glob>
+  </mime-type>
+  <mime-type type="application/java-archive">
+    <glob>jar</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.aftereffects.template">
+    <glob>aet</glob>
+  </mime-type>
+  <mime-type type="application/sldworks">
+    <glob>sldprt</glob>
+    <glob>sldasm</glob>
+    <glob>slddrw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mophun.application">
+    <glob>mpn</glob>
+  </mime-type>
+  <mime-type type="application/vnd.osgi.dp">
+    <glob>dp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-excel.sheet.macroenabled.12">
+    <glob>xlsm</glob>
+  </mime-type>
+  <mime-type type="image/heif">
+    <glob>heif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-outlook">
+    <glob>msg</glob>
+  </mime-type>
+  <mime-type type="image/heic">
+    <glob>heic</glob>
+  </mime-type>
+  <mime-type type="application/vnd.neurolanguage.nlu">
+    <glob>nlu</glob>
+  </mime-type>
+  <mime-type type="application/x-mswrite">
+    <glob>wri</glob>
+  </mime-type>
+  <mime-type type="application/mac-compactpro">
+    <glob>cpt</glob>
+  </mime-type>
+  <mime-type type="text/x-groovy">
+    <glob>groovy</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hbci">
+    <glob>hbci</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.template">
+    <glob>xltx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.tcpdump.pcap">
+    <glob>pcap</glob>
+    <glob>cap</glob>
+    <glob>dmp</glob>
+  </mime-type>
+  <mime-type type="application/x-tex">
+    <glob>tex</glob>
+  </mime-type>
+  <mime-type type="text/x-d">
+    <glob>d</glob>
+  </mime-type>
+  <mime-type type="model/vnd.dwfx+xps">
+    <glob>dwfx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.picsel">
+    <glob>efif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-cab-compressed">
+    <glob>cab</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-fuji">
+    <glob>raf</glob>
+  </mime-type>
+  <mime-type type="x-conference/x-cooltalk">
+    <glob>ice</glob>
+  </mime-type>
+  <mime-type type="image/webp">
+    <glob>webp</glob>
+  </mime-type>
+  <mime-type type="application/x-staroffice-template">
+    <glob>vor</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-backup">
+    <glob>sas7bbak</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fdf">
+    <glob>fdf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.mpegurl">
+    <glob>m3u8</glob>
+  </mime-type>
+  <mime-type type="application/x-quattro-pro;version=1-4">
+    <glob>wq1</glob>
+    <glob>wkq</glob>
+  </mime-type>
+  <mime-type type="application/x-killustrator">
+    <glob>kil</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-itemstor">
+    <glob>sr7</glob>
+    <glob>sas7bitm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.nokia.radio-preset">
+    <glob>rpst</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wordperfect;version=5.0">
+    <glob>wpd</glob>
+    <glob>wp</glob>
+    <glob>wp5</glob>
+    <glob>wp6</glob>
+    <glob>w60</glob>
+    <glob>wp61</glob>
+    <glob>wpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wordperfect;version=5.1">
+    <glob>wpd</glob>
+    <glob>wp</glob>
+    <glob>wp5</glob>
+    <glob>wp6</glob>
+    <glob>w60</glob>
+    <glob>wp61</glob>
+    <glob>wpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.syncml+xml">
+    <glob>xsm</glob>
+  </mime-type>
+  <mime-type type="audio/x-aiff">
+    <glob>aif</glob>
+    <glob>aiff</glob>
+    <glob>aifc</glob>
+  </mime-type>
+  <mime-type type="image/vnd.fpx">
+    <glob>fpx</glob>
+  </mime-type>
+  <mime-type type="application/x-dtbncx+xml">
+    <glob>ncx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.writer-global">
+    <glob>sgl</glob>
+  </mime-type>
+  <mime-type type="application/pkix-cert">
+    <glob>cer</glob>
+  </mime-type>
+  <mime-type type="application/vnd.framemaker">
+    <glob>fm</glob>
+    <glob>frame</glob>
+    <glob>maker</glob>
+    <glob>book</glob>
+  </mime-type>
+  <mime-type type="application/x-quattro-pro;version=1+5">
+    <glob>wb1</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.image-template">
+    <glob>oti</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml;format=task">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.dis">
+    <glob>dis</glob>
+  </mime-type>
+  <mime-type type="image/x-dpx">
+    <glob>dpx</glob>
+  </mime-type>
+  <mime-type type="application/rtf">
+    <glob>rtf</glob>
+  </mime-type>
+  <mime-type type="audio/amr-wb">
+    <glob>amr</glob>
+  </mime-type>
+  <mime-type type="image/x-portable-pixmap">
+    <glob>ppm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-help">
+    <glob>ghf</glob>
+  </mime-type>
+  <mime-type type="chemical/x-pdb">
+    <glob>pdb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.syncml.dm+wbxml">
+    <glob>bdm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.pg.osasli">
+    <glob>ei6</glob>
+  </mime-type>
+  <mime-type type="application/vnd.unity">
+    <glob>unityweb</glob>
+  </mime-type>
+  <mime-type type="application/x-pkcs7-certreqresp">
+    <glob>p7r</glob>
+  </mime-type>
+  <mime-type type="chemical/x-cif">
+    <glob>cif</glob>
+  </mime-type>
+  <mime-type type="text/x-lua">
+    <glob>lua</glob>
+  </mime-type>
+  <mime-type type="text/uri-list">
+    <glob>uri</glob>
+    <glob>uris</glob>
+    <glob>urls</glob>
+  </mime-type>
+  <mime-type type="application/x-endnote-refer">
+    <glob>enw</glob>
+    <glob>enr</glob>
+  </mime-type>
+  <mime-type type="application/ccxml+xml">
+    <glob>ccxml</glob>
+  </mime-type>
+  <mime-type type="application/x-parquet">
+    <glob>parquet</glob>
+  </mime-type>
+  <mime-type type="application/vnd.eszigno3+xml">
+    <glob>es3</glob>
+    <glob>et3</glob>
+  </mime-type>
+  <mime-type type="image/png">
+    <glob>png</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-outlook-pst">
+    <glob>pst</glob>
+    <glob>ost</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-msworks-spreadsheet">
+    <glob>xlr</glob>
+  </mime-type>
+  <mime-type type="application/vnd.musician">
+    <glob>mus</glob>
+  </mime-type>
+  <mime-type type="video/x-f4v">
+    <glob>f4v</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.smaf-audio">
+    <glob>saf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-xpsdocument">
+    <glob>xps</glob>
+    <glob>oxps</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="application/vnd.anser-web-certificate-issue-initiation">
+    <glob>cii</glob>
+  </mime-type>
+  <mime-type type="audio/ogg">
+    <glob>oga</glob>
+  </mime-type>
+  <mime-type type="application/x-tar">
+    <glob>tar</glob>
+  </mime-type>
+  <mime-type type="text/x-clojure">
+    <glob>clj</glob>
+  </mime-type>
+  <mime-type type="video/x-ogm">
+    <glob>ogm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.medcalcdata">
+    <glob>mc1</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-java-enterprise-archive">
+    <glob>ear</glob>
+  </mime-type>
+  <mime-type type="image/x-bpg">
+    <glob>bpg</glob>
+  </mime-type>
+  <mime-type type="application/vnd.pg.format">
+    <glob>str</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.template">
+    <glob>dotx</glob>
+  </mime-type>
+  <mime-type type="text/aspdotnet">
+    <glob>aspx</glob>
+  </mime-type>
+  <mime-type type="application/x-itunes-ipa">
+    <glob>ipa</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-iworks-protected">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="text/sgml">
+    <glob>sgml</glob>
+    <glob>sgm</glob>
+  </mime-type>
+  <mime-type type="text/x-rst">
+    <glob>rest</glob>
+    <glob>rst</glob>
+    <glob>restx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.noblenet-sealer">
+    <glob>nns</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.calc">
+    <glob>sdc</glob>
+  </mime-type>
+  <mime-type type="application/x-appleworks">
+    <glob>cwk</glob>
+  </mime-type>
+  <mime-type type="application/vnd.shana.informed.formdata">
+    <glob>ifm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.trid.tpt">
+    <glob>tpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.blueice.multipass">
+    <glob>mpm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.contact.cmsg">
+    <glob>cdbcmsg</glob>
+  </mime-type>
+  <mime-type type="application/vnd.epson.quickanime">
+    <glob>qam</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-hps">
+    <glob>hps</glob>
+  </mime-type>
+  <mime-type type="application/vnd.dreamfactory">
+    <glob>dfac</glob>
+  </mime-type>
+  <mime-type type="application/x-ace-compressed">
+    <glob>ace</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-mamiya">
+    <glob>mef</glob>
+  </mime-type>
+  <mime-type type="application/epub+zip">
+    <glob>epub</glob>
+  </mime-type>
+  <mime-type type="application/x-quattro-pro">
+    <glob>wq1</glob>
+    <glob>wq2</glob>
+    <glob>wkq</glob>
+    <glob>qpw</glob>
+    <glob>wb1</glob>
+    <glob>wb2</glob>
+    <glob>wb3</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ibm.minipay">
+    <glob>mpy</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-data">
+    <glob>sd7</glob>
+    <glob>sas7bdat</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-fdb">
+    <glob>sf7</glob>
+    <glob>sas7bfdb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.stencil">
+    <glob>vssx</glob>
+  </mime-type>
+  <mime-type type="application/reginfo+xml">
+    <glob>rif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.crick.clicker">
+    <glob>clkx</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-xport">
+    <glob>xpt</glob>
+    <glob>xport</glob>
+  </mime-type>
+  <mime-type type="application/vnd.symbian.install">
+    <glob>sis</glob>
+    <glob>sisx</glob>
+  </mime-type>
+  <mime-type type="application/marc">
+    <glob>mrc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mediastation.cdkey">
+    <glob>cdkey</glob>
+  </mime-type>
+  <mime-type type="text/x-ruby">
+    <glob>rb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.3gpp2.tcap">
+    <glob>tcap</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.math">
+    <glob>sxm</glob>
+  </mime-type>
+  <mime-type type="video/x-ogguvs">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.spotfire.dxp">
+    <glob>dxp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.smaf">
+    <glob>mmf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.joost.joda-archive">
+    <glob>joda</glob>
+  </mime-type>
+  <mime-type type="application/vnd.rim.cod">
+    <glob>cod</glob>
+  </mime-type>
+  <mime-type type="application/vnd.curl.car">
+    <glob>car</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.writer">
+    <glob>sxw</glob>
+  </mime-type>
+  <mime-type type="image/vnd.fujixerox.edmics-mmr">
+    <glob>mmr</glob>
+  </mime-type>
+  <mime-type type="application/x-dtbook+xml">
+    <glob>dtb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.data-vision.rdz">
+    <glob>rdz</glob>
+  </mime-type>
+  <mime-type type="application/x-adobe-indesign">
+    <glob>indd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint.addin.macroenabled.12">
+    <glob>ppam</glob>
+  </mime-type>
+  <mime-type type="application/vnd.pvi.ptid1">
+    <glob>ptid</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sus-calendar">
+    <glob>sus</glob>
+    <glob>susp</glob>
+  </mime-type>
+  <mime-type type="application/timestamped-data">
+    <glob>tsd</glob>
+  </mime-type>
+  <mime-type type="text/x-c++src">
+    <glob>cpp</glob>
+    <glob>cxx</glob>
+    <glob>cc</glob>
+    <glob>c</glob>
+    <glob>c++</glob>
+    <glob>cpp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.acucobol">
+    <glob>acu</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-access">
+    <glob>sa7</glob>
+    <glob>sas7bacs</glob>
+  </mime-type>
+  <mime-type type="application/vnd.olpc-sugar">
+    <glob>xo</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml;format=topic">
+    <glob>dita</glob>
+  </mime-type>
+  <mime-type type="application/vnd.curl.pcurl">
+    <glob>pcurl</glob>
+  </mime-type>
+  <mime-type type="text/x-vbasic">
+    <glob>cls</glob>
+    <glob>cls</glob>
+    <glob>cls</glob>
+    <glob>frm</glob>
+    <glob>frm</glob>
+    <glob>frm</glob>
+  </mime-type>
+  <mime-type type="text/x-forth">
+    <glob>4th</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3">
+    <glob>wk1</glob>
+    <glob>wk2</glob>
+    <glob>wk3</glob>
+    <glob>wk4</glob>
+    <glob>123</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3;version=97+9.x">
+    <glob>123</glob>
+  </mime-type>
+  <mime-type type="text/vtt">
+    <glob>vtt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.clonk.c4group">
+    <glob>c4g</glob>
+    <glob>c4d</glob>
+    <glob>c4f</glob>
+    <glob>c4p</glob>
+    <glob>c4u</glob>
+  </mime-type>
+  <mime-type type="application/x-shapefile">
+    <glob>shp</glob>
+  </mime-type>
+  <mime-type type="application/x-mspublisher">
+    <glob>pub</glob>
+  </mime-type>
+  <mime-type type="application/srgs">
+    <glob>gram</glob>
+  </mime-type>
+  <mime-type type="application/x-x509-cert">
+    <glob>crt</glob>
+  </mime-type>
+  <mime-type type="application/x-rar-compressed">
+    <glob>rar</glob>
+  </mime-type>
+  <mime-type type="image/x-xbitmap">
+    <glob>xbm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.graphics-template">
+    <glob>otg</glob>
+  </mime-type>
+  <mime-type type="application/envi.hdr">
+    <glob>hdr</glob>
+  </mime-type>
+  <mime-type type="text/iso19139+xml">
+    <glob>iso19139</glob>
+  </mime-type>
+  <mime-type type="text/x-csrc">
+    <glob>c</glob>
+  </mime-type>
+  <mime-type type="application/vnd.noblenet-directory">
+    <glob>nnd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.rn-realmedia">
+    <glob>rm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kahootz">
+    <glob>ktz</glob>
+    <glob>ktr</glob>
+  </mime-type>
+  <mime-type type="application/x-nesrom">
+    <glob>nes</glob>
+  </mime-type>
+  <mime-type type="image/emf">
+    <glob>emf</glob>
+  </mime-type>
+  <mime-type type="application/octet-stream">
+    <glob>bin</glob>
+    <glob>dms</glob>
+    <glob>lha</glob>
+    <glob>lrf</glob>
+    <glob>lzh</glob>
+    <glob>so</glob>
+    <glob>dist</glob>
+    <glob>distz</glob>
+    <glob>pkg</glob>
+    <glob>bpk</glob>
+    <glob>dump</glob>
+    <glob>elc</glob>
+    <glob>deploy</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kinar">
+    <glob>kne</glob>
+    <glob>knp</glob>
+  </mime-type>
+  <mime-type type="video/x-ms-asf">
+    <glob>asf</glob>
+  </mime-type>
+  <mime-type type="application/rdf+xml">
+    <glob>rdf</glob>
+    <glob>owl</glob>
+    <glob>^rdf$</glob>
+    <glob>^owl$</glob>
+    <glob>xmp</glob>
+  </mime-type>
+  <mime-type type="application/x-lzma">
+    <glob>lzma</glob>
+  </mime-type>
+  <mime-type type="application/x-sv4crc">
+    <glob>sv4crc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.google-earth.kml+xml">
+    <glob>kml</glob>
+  </mime-type>
+  <mime-type type="video/3gpp2">
+    <glob>3g2</glob>
+  </mime-type>
+  <mime-type type="video/x-mng">
+    <glob>mng</glob>
+  </mime-type>
+  <mime-type type="audio/mpeg">
+    <glob>mpga</glob>
+    <glob>mp2</glob>
+    <glob>mp2a</glob>
+    <glob>mp3</glob>
+    <glob>m2a</glob>
+    <glob>m3a</glob>
+  </mime-type>
+  <mime-type type="application/davmount+xml">
+    <glob>davmount</glob>
+  </mime-type>
+  <mime-type type="application/patch-ops-error+xml">
+    <glob>xer</glob>
+  </mime-type>
+  <mime-type type="text/x-pascal">
+    <glob>p</glob>
+    <glob>pp</glob>
+    <glob>pas</glob>
+    <glob>pas</glob>
+    <glob>dpr</glob>
+  </mime-type>
+  <mime-type type="text/x-awk">
+    <glob>awk</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta;version=13">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-xbap">
+    <glob>xbap</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta;version=12">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="image/x-pict">
+    <glob>pic</glob>
+    <glob>pct</glob>
+    <glob>pict</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.daf">
+    <glob>daf</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta;version=14">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="application/vnd.palm">
+    <glob>pqa</glob>
+    <glob>oprc</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta;version=10">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="audio/x-mpegurl">
+    <glob>m3u</glob>
+  </mime-type>
+  <mime-type type="application/x-chrome-package">
+    <glob>crx</glob>
+  </mime-type>
+  <mime-type type="image/svg+xml">
+    <glob>svg</glob>
+    <glob>svgz</glob>
+  </mime-type>
+  <mime-type type="model/vnd.dwf">
+    <glob>dwf</glob>
+  </mime-type>
+  <mime-type type="application/x-msterminal">
+    <glob>trm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-jlyt">
+    <glob>jlt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.llamagraphics.life-balance.exchange+xml">
+    <glob>lbe</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.installer+xml">
+    <glob>mpkg</glob>
+  </mime-type>
+  <mime-type type="text/x-applescript">
+    <glob>applescript</glob>
+  </mime-type>
+  <mime-type type="text/x-emacs-lisp">
+    <glob>el</glob>
+  </mime-type>
+  <mime-type type="application/x-lzip">
+    <glob>lz</glob>
+  </mime-type>
+  <mime-type type="application/x-adobe-indesign-interchange">
+    <glob>inx</glob>
+  </mime-type>
+  <mime-type type="video/vnd.vivo">
+    <glob>viv</glob>
+  </mime-type>
+  <mime-type type="application/pics-rules">
+    <glob>prf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.jam">
+    <glob>jam</glob>
+  </mime-type>
+  <mime-type type="image/fits">
+    <glob>fits</glob>
+    <glob>fit</glob>
+    <glob>fts</glob>
+  </mime-type>
+  <mime-type type="application/mathematica">
+    <glob>ma</glob>
+    <glob>nb</glob>
+    <glob>mb</glob>
+  </mime-type>
+  <mime-type type="application/set-registration-initiation">
+    <glob>setreg</glob>
+  </mime-type>
+  <mime-type type="audio/x-pn-realaudio-plugin">
+    <glob>rmp</glob>
+  </mime-type>
+  <mime-type type="text/x-haskell">
+    <glob>hs</glob>
+    <glob>lhs</glob>
+  </mime-type>
+  <mime-type type="multipart/related">
+    <glob>mht</glob>
+    <glob>mhtml</glob>
+  </mime-type>
+  <mime-type type="application/rsd+xml">
+    <glob>rsd</glob>
+  </mime-type>
+  <mime-type type="image/x-portable-anymap">
+    <glob>pnm</glob>
+  </mime-type>
+  <mime-type type="chemical/x-csml">
+    <glob>csml</glob>
+  </mime-type>
+  <mime-type type="image/x-xcf">
+    <glob>xcf</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe32">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="video/x-msvideo">
+    <glob>avi</glob>
+  </mime-type>
+  <mime-type type="application/sereal;version=3">
+    <glob>srl</glob>
+  </mime-type>
+  <mime-type type="text/x-prolog">
+    <glob>pro</glob>
+  </mime-type>
+  <mime-type type="application/sereal;version=2">
+    <glob>srl</glob>
+  </mime-type>
+  <mime-type type="application/sereal;version=1">
+    <glob>srl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint.slideshow.macroenabled.12">
+    <glob>ppsm</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dxf;format=ascii">
+    <glob>dxf</glob>
+  </mime-type>
+  <mime-type type="application/ecmascript">
+    <glob>ecma</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kpresenter">
+    <glob>kpr</glob>
+    <glob>kpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kontour">
+    <glob>kon</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-phaseone">
+    <glob>iiq</glob>
+  </mime-type>
+  <mime-type type="image/vnd.xiff">
+    <glob>xif</glob>
+  </mime-type>
+  <mime-type type="text/x-config">
+    <glob>config</glob>
+    <glob>conf</glob>
+    <glob>cfg</glob>
+    <glob>xconf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.java.hprof.text">
+    <glob>hprof.txt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.uiq.theme">
+    <glob>utz</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-word.document.macroenabled.12">
+    <glob>docm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.unknown.13">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="audio/x-oggpcm">
+    <glob>oga</glob>
+  </mime-type>
+  <mime-type type="application/oebps-package+xml">
+    <glob>opf</glob>
+  </mime-type>
+  <mime-type type="application/x-msbinder">
+    <glob>obd</glob>
+  </mime-type>
+  <mime-type type="application/x-pkcs12">
+    <glob>p12</glob>
+    <glob>pfx</glob>
+  </mime-type>
+  <mime-type type="application/mediaservercontrol+xml">
+    <glob>mscml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wolfram.wl">
+    <glob>wl</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-rawzor">
+    <glob>rwz</glob>
+  </mime-type>
+  <mime-type type="text/csv">
+    <glob>csv</glob>
+  </mime-type>
+  <mime-type type="application/pkcs10">
+    <glob>p10</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-notes">
+    <glob>nsf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.is-xpr">
+    <glob>xpr</glob>
+  </mime-type>
+  <mime-type type="text/css">
+    <glob>css</glob>
+  </mime-type>
+  <mime-type type="text/troff">
+    <glob>t</glob>
+    <glob>tr</glob>
+    <glob>roff</glob>
+    <glob>nroff</glob>
+    <glob>man</glob>
+    <glob>me</glob>
+    <glob>ms</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-view">
+    <glob>sv7</glob>
+    <glob>sas7bvew</glob>
+  </mime-type>
+  <mime-type type="image/cgm">
+    <glob>cgm</glob>
+  </mime-type>
+  <mime-type type="text/x-c++hdr">
+    <glob>hpp</glob>
+    <glob>hxx</glob>
+    <glob>hh</glob>
+    <glob>h</glob>
+    <glob>h++</glob>
+    <glob>hp</glob>
+    <glob>hpp</glob>
+  </mime-type>
+  <mime-type type="application/x-wacz">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="application/winhlp">
+    <glob>hlp</glob>
+  </mime-type>
+  <mime-type type="model/vnd.mts">
+    <glob>mts</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kivio">
+    <glob>flw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.numbers">
+    <glob>numbers</glob>
+  </mime-type>
+  <mime-type type="application/onenote">
+    <glob>onetmp</glob>
+  </mime-type>
+  <mime-type type="application/sparql-query">
+    <glob>rq</glob>
+  </mime-type>
+  <mime-type type="video/x-m4v">
+    <glob>m4v</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.calc.template">
+    <glob>stc</glob>
+  </mime-type>
+  <mime-type type="application/resource-lists+xml">
+    <glob>rl</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe-itanium">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="application/vnd.tmobile-livetv">
+    <glob>tmo</glob>
+  </mime-type>
+  <mime-type type="application/x-dvi">
+    <glob>dvi</glob>
+  </mime-type>
+  <mime-type type="application/x-latex">
+    <glob>latex</glob>
+  </mime-type>
+  <mime-type type="application/x-x509-cert;format=der">
+    <glob>der</glob>
+  </mime-type>
+  <mime-type type="text/x-vhdl">
+    <glob>vhd</glob>
+    <glob>vhdl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.frogans.ltf">
+    <glob>ltf</glob>
+  </mime-type>
+  <mime-type type="video/mpeg">
+    <glob>mpeg</glob>
+    <glob>mpg</glob>
+    <glob>mpe</glob>
+    <glob>m1v</glob>
+    <glob>m2v</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.mqy">
+    <glob>mqy</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mcd">
+    <glob>mcd</glob>
+  </mime-type>
+  <mime-type type="application/xenc+xml">
+    <glob>xenc</glob>
+  </mime-type>
+  <mime-type type="application/oda">
+    <glob>oda</glob>
+  </mime-type>
+  <mime-type type="application/x-bibtex-text-file">
+    <glob>bib</glob>
+    <glob>bibtex</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.text-master">
+    <glob>otm</glob>
+  </mime-type>
+  <mime-type type="text/asp">
+    <glob>asp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.tika.flat.document">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="text/tab-separated-values">
+    <glob>tsv</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.ms-playready.media.pya">
+    <glob>pya</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-pentax">
+    <glob>ptx</glob>
+    <glob>pef</glob>
+  </mime-type>
+  <mime-type type="image/gif">
+    <glob>gif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.bmi">
+    <glob>bmi</glob>
+  </mime-type>
+  <mime-type type="text/x-actionscript">
+    <glob>as</glob>
+  </mime-type>
+  <mime-type type="image/vnd.fastbidsheet">
+    <glob>fbs</glob>
+  </mime-type>
+  <mime-type type="application/vnd.epson.salt">
+    <glob>slt</glob>
+  </mime-type>
+  <mime-type type="application/sdp">
+    <glob>sdp</glob>
+  </mime-type>
+  <mime-type type="image/vnd.net-fpx">
+    <glob>npx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.openscoreformat.osfpvg+xml">
+    <glob>osfpvg</glob>
+  </mime-type>
+  <mime-type type="application/srgs+xml">
+    <glob>grxml</glob>
+  </mime-type>
+  <mime-type type="text/x-sql">
+    <glob>sql</glob>
+  </mime-type>
+  <mime-type type="application/vnd.triscape.mxs">
+    <glob>mxs</glob>
+  </mime-type>
+  <mime-type type="application/x-dtbresource+xml">
+    <glob>res</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe64">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kformula">
+    <glob>kfo</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-transport">
+    <glob>stx</glob>
+  </mime-type>
+  <mime-type type="text/x-stsrc">
+    <glob>st</glob>
+  </mime-type>
+  <mime-type type="application/warc">
+    <glob>warc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.text">
+    <glob>odt</glob>
+  </mime-type>
+  <mime-type type="application/x-bcpio">
+    <glob>bcpio</glob>
+  </mime-type>
+  <mime-type type="application/x-xfig">
+    <glob>fig</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-kodak">
+    <glob>k25</glob>
+    <glob>kdc</glob>
+    <glob>dcs</glob>
+    <glob>drf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint.template.macroenabled.12">
+    <glob>potm</glob>
+  </mime-type>
+  <mime-type type="model/vnd.gdl">
+    <glob>gdl</glob>
+  </mime-type>
+  <mime-type type="application/scvp-cv-response">
+    <glob>scs</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="application/x-corelpresentations">
+    <glob>shw</glob>
+  </mime-type>
+  <mime-type type="application/x-memgraph">
+    <glob>memgraph</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-canon">
+    <glob>crw</glob>
+    <glob>cr2</glob>
+  </mime-type>
+  <mime-type type="text/x-common-lisp">
+    <glob>cl</glob>
+    <glob>jl</glob>
+    <glob>lisp</glob>
+    <glob>lsp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-pcl">
+    <glob>pcl</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.dts">
+    <glob>dts</glob>
+  </mime-type>
+  <mime-type type="application/vnd.businessobjects">
+    <glob>rep</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-dmdb">
+    <glob>s7m</glob>
+    <glob>sas7bdmd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-works">
+    <glob>wps</glob>
+    <glob>wks</glob>
+    <glob>wcm</glob>
+    <glob>wdb</glob>
+  </mime-type>
+  <mime-type type="application/x-isatab">
+    <glob>s_*.txt</glob>
+  </mime-type>
+  <mime-type type="image/vnd.fujixerox.edmics-rlc">
+    <glob>rlc</glob>
+  </mime-type>
+  <mime-type type="image/x-jp2-codestream">
+    <glob>j2c</glob>
+  </mime-type>
+  <mime-type type="message/x-emlx">
+    <glob>emlx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.dna">
+    <glob>dna</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.pages">
+    <glob>pages</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fsc.weblaunch">
+    <glob>fsc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.dynageo">
+    <glob>geo</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fluxtime.clip">
+    <glob>ftc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.amazon.ebook">
+    <glob>azw</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-adobe">
+    <glob>dng</glob>
+  </mime-type>
+  <mime-type type="text/x-web-markdown">
+    <glob>md</glob>
+    <glob>mdtext</glob>
+    <glob>mkd</glob>
+    <glob>markdown</glob>
+  </mime-type>
+  <mime-type type="image/x-jbig2">
+    <glob>jb2</glob>
+    <glob>jbig2</glob>
+  </mime-type>
+  <mime-type type="application/mbox">
+    <glob>mbox</glob>
+  </mime-type>
+  <mime-type type="application/vnd.accpac.simply.aso">
+    <glob>aso</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-leaf">
+    <glob>mos</glob>
+  </mime-type>
+  <mime-type type="application/vnd.seemail">
+    <glob>see</glob>
+  </mime-type>
+  <mime-type type="application/scvp-vp-response">
+    <glob>spp</glob>
+  </mime-type>
+  <mime-type type="text/x-sed">
+    <glob>sed</glob>
+  </mime-type>
+  <mime-type type="image/heic-sequence">
+    <glob>qt</glob>
+    <glob>mov</glob>
+  </mime-type>
+  <mime-type type="application/dif+xml">
+    <glob>dif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-excel">
+    <glob>xls</glob>
+    <glob>xlm</glob>
+    <glob>xla</glob>
+    <glob>xlc</glob>
+    <glob>xlt</glob>
+    <glob>xlw</glob>
+    <glob>xll</glob>
+    <glob>xld</glob>
+  </mime-type>
+  <mime-type type="application/vnd.noblenet-web">
+    <glob>nnw</glob>
+  </mime-type>
+  <mime-type type="text/x-jsp">
+    <glob>jsp</glob>
+  </mime-type>
+  <mime-type type="application/x-dosexec">
+    <glob>exe</glob>
+  </mime-type>
+  <mime-type type="application/x-sv4cpio">
+    <glob>sv4cpio</glob>
+  </mime-type>
+  <mime-type type="application/vnd.muvee.style">
+    <glob>msty</glob>
+  </mime-type>
+  <mime-type type="application/xml-dtd">
+    <glob>dtd</glob>
+  </mime-type>
+  <mime-type type="image/x-freehand">
+    <glob>fh</glob>
+    <glob>fhc</glob>
+    <glob>fh4</glob>
+    <glob>fh40</glob>
+    <glob>fh5</glob>
+    <glob>fh50</glob>
+    <glob>fh7</glob>
+    <glob>fh8</glob>
+    <glob>fh9</glob>
+    <glob>fh10</glob>
+    <glob>fh11</glob>
+    <glob>fh12</glob>
+    <glob>ft7</glob>
+    <glob>ft8</glob>
+    <glob>ft9</glob>
+    <glob>ft10</glob>
+    <glob>ft11</glob>
+    <glob>ft12</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-ooxml">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="audio/amr">
+    <glob>amr</glob>
+  </mime-type>
+  <mime-type type="application/x-sfdu">
+    <glob>sfdu</glob>
+  </mime-type>
+  <mime-type type="application/x-isatab-assay">
+    <glob>a_*.txt</glob>
+  </mime-type>
+  <mime-type type="application/x-quattro-pro;version=5">
+    <glob>wq2</glob>
+    <glob>wkq</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wqd">
+    <glob>wqd</glob>
+  </mime-type>
+  <mime-type type="application/x-quattro-pro;version=6">
+    <glob>wb2</glob>
+  </mime-type>
+  <mime-type type="text/vnd.curl">
+    <glob>curl</glob>
+  </mime-type>
+  <mime-type type="application/x-esri-layer">
+    <glob>lyr</glob>
+  </mime-type>
+  <mime-type type="application/vnd.cinderella">
+    <glob>cdy</glob>
+  </mime-type>
+  <mime-type type="application/postscript">
+    <glob>ps</glob>
+    <glob>eps</glob>
+    <glob>epsf</glob>
+    <glob>epsi</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.karbon">
+    <glob>karbon</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-ims">
+    <glob>ims</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ipunplugged.rcprofile">
+    <glob>rcprofile</glob>
+  </mime-type>
+  <mime-type type="chemical/x-cml">
+    <glob>cml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.openscoreformat">
+    <glob>osf</glob>
+  </mime-type>
+  <mime-type type="text/x-java-source">
+    <glob>java</glob>
+  </mime-type>
+  <mime-type type="application/coreldraw">
+    <glob>cdr</glob>
+  </mime-type>
+  <mime-type type="application/shf+xml">
+    <glob>shf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.simtech-mindmapper">
+    <glob>twd</glob>
+    <glob>twds</glob>
+  </mime-type>
+  <mime-type type="application/vnd.smart.teacher">
+    <glob>teacher</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujitsu.oasysprs">
+    <glob>bh2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.spotfire.sfs">
+    <glob>sfs</glob>
+  </mime-type>
+  <mime-type type="audio/opus">
+    <glob>opus</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.presentationml.template">
+    <glob>potx</glob>
+  </mime-type>
+  <mime-type type="application/x-xmind">
+    <glob>xmind</glob>
+  </mime-type>
+  <mime-type type="application/x-gtar">
+    <glob>gtar</glob>
+  </mime-type>
+  <mime-type type="application/x-font-bdf">
+    <glob>bdf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.nokia.n-gage.data">
+    <glob>ngdat</glob>
+  </mime-type>
+  <mime-type type="image/ief">
+    <glob>ief</glob>
+  </mime-type>
+  <mime-type type="application/relax-ng-compact-syntax">
+    <glob>rnc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.writer">
+    <glob>sdw</glob>
+  </mime-type>
+  <mime-type type="image/vnd.zbrush.dcx">
+    <glob>dcx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ibm.modcap">
+    <glob>afp</glob>
+    <glob>listafp</glob>
+    <glob>list3820</glob>
+  </mime-type>
+  <mime-type type="application/x-vmdk">
+    <glob>vmdk</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kchart">
+    <glob>chrt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yellowriver-custom-menu">
+    <glob>cmp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-wordml">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="text/x-verilog">
+    <glob>v</glob>
+  </mime-type>
+  <mime-type type="image/heif-sequence">
+    <glob>qt</glob>
+    <glob>mov</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    <glob>docx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint.slide.macroenabled.12">
+    <glob>sldm</glob>
+  </mime-type>
+  <mime-type type="application/x-cdlink">
+    <glob>vcd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.crick.clicker.keyboard">
+    <glob>clkk</glob>
+  </mime-type>
+  <mime-type type="text/vnd.fmi.flexstor">
+    <glob>flx</glob>
+  </mime-type>
+  <mime-type type="image/x-tga">
+    <glob>tga</glob>
+    <glob>icb</glob>
+    <glob>vda</glob>
+  </mime-type>
+  <mime-type type="application/smil+xml">
+    <glob>smi</glob>
+    <glob>smil</glob>
+    <glob>sml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.epson.ssf">
+    <glob>ssf</glob>
+  </mime-type>
+  <mime-type type="text/vnd.in3d.3dml">
+    <glob>3dml</glob>
+  </mime-type>
+  <mime-type type="text/vnd.iptc.anpa">
+    <glob>anpa</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-java-web-archive">
+    <glob>war</glob>
+  </mime-type>
+  <mime-type type="application/x-webarchive">
+    <glob>webarchive</glob>
+  </mime-type>
+  <mime-type type="application/vnd.cosmocaller">
+    <glob>cmc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.pocketlearn">
+    <glob>plf</glob>
+  </mime-type>
+  <mime-type type="video/x-oggrgb">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/dash+xml">
+    <glob>mpd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.recordare.musicxml+xml">
+    <glob>musicxml</glob>
+  </mime-type>
+  <mime-type type="application/x-lz4">
+    <glob>lz4</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.flat.spreadsheet">
+    <glob>fods</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-asx">
+    <glob>asx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.frogans.fnc">
+    <glob>fnc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wap.wmlscriptc">
+    <glob>wmlsc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.recordare.musicxml">
+    <glob>mxl</glob>
+  </mime-type>
+  <mime-type type="model/iges">
+    <glob>igs</glob>
+    <glob>iges</glob>
+  </mime-type>
+  <mime-type type="text/richtext">
+    <glob>rtx</glob>
+  </mime-type>
+  <mime-type type="application/x-internet-archive">
+    <glob>arc</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="text/x-haml">
+    <glob>haml</glob>
+  </mime-type>
+  <mime-type type="image/icns">
+    <glob>icns</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-sigma">
+    <glob>x3f</glob>
+  </mime-type>
+  <mime-type type="application/vnd.igloader">
+    <glob>igl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.cups-ppd">
+    <glob>ppd</glob>
+  </mime-type>
+  <mime-type type="application/x-shar">
+    <glob>shar</glob>
+  </mime-type>
+  <mime-type type="image/x-emf-compressed">
+    <glob>emz</glob>
+  </mime-type>
+  <mime-type type="application/vnd.publishare-delta-tree">
+    <glob>qps</glob>
+  </mime-type>
+  <mime-type type="application/vnd.crick.clicker.palette">
+    <glob>clkp</glob>
+  </mime-type>
+  <mime-type type="application/x-debian-package">
+    <glob>deb</glob>
+    <glob>udeb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.impress">
+    <glob>sxi</glob>
+  </mime-type>
+  <mime-type type="application/gzip">
+    <glob>gz</glob>
+    <glob>tgz</glob>
+    <glob>*-gz</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.hv-voice">
+    <glob>hvp</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-audit">
+    <glob>st7</glob>
+    <glob>sas7baud</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-tool-template">
+    <glob>tpl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-pki.stl">
+    <glob>stl</glob>
+  </mime-type>
+  <mime-type type="chemical/x-xyz">
+    <glob>xyz</glob>
+  </mime-type>
+  <mime-type type="text/x-erlang">
+    <glob>erl</glob>
+  </mime-type>
+  <mime-type type="text/vnd.curl.mcurl">
+    <glob>mcurl</glob>
+  </mime-type>
+  <mime-type type="application/x-rar-compressed;version=4">
+    <glob>rar</glob>
+  </mime-type>
+  <mime-type type="application/x-rar-compressed;version=5">
+    <glob>rar</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.presentationml.slideshow">
+    <glob>ppsx</glob>
+  </mime-type>
+  <mime-type type="text/x-rsrc">
+    <glob>r</glob>
+  </mime-type>
+  <mime-type type="application/x-gnucash">
+    <glob>gnucash</glob>
+  </mime-type>
+  <mime-type type="application/sbml+xml">
+    <glob>sbml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.geogebra.file">
+    <glob>ggb</glob>
+  </mime-type>
+  <mime-type type="application/voicexml+xml">
+    <glob>vxml</glob>
+  </mime-type>
+  <mime-type type="application/x-mobipocket-ebook">
+    <glob>prc</glob>
+    <glob>mobi</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3;version=4">
+    <glob>wk4</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3;version=3">
+    <glob>wk3</glob>
+  </mime-type>
+  <mime-type type="application/vnd.xara">
+    <glob>xar</glob>
+  </mime-type>
+  <mime-type type="audio/midi">
+    <glob>mid</glob>
+    <glob>midi</glob>
+    <glob>kar</glob>
+    <glob>rmi</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3;version=2">
+    <glob>wk1</glob>
+    <glob>wk2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.tao.intent-module-archive">
+    <glob>tao</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-1-2-3;version=1">
+    <glob>wk1</glob>
+    <glob>wk2</glob>
+    <glob>wk3</glob>
+    <glob>wk4</glob>
+    <glob>123</glob>
+  </mime-type>
+  <mime-type type="application/wsdl+xml">
+    <glob>wsdl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.keynote">
+    <glob>key</glob>
+  </mime-type>
+  <mime-type type="image/x-rgb">
+    <glob>rgb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.epson.msf">
+    <glob>msf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.spreadsheet-template">
+    <glob>ots</glob>
+  </mime-type>
+  <mime-type type="application/x-futuresplash">
+    <glob>spl</glob>
+  </mime-type>
+  <mime-type type="application/bizagi-modeler">
+    <glob>bpm</glob>
+  </mime-type>
+  <mime-type type="application/mp4">
+    <glob>mp4s</glob>
+  </mime-type>
+  <mime-type type="video/vnd.mpegurl">
+    <glob>mxu</glob>
+    <glob>m4u</glob>
+  </mime-type>
+  <mime-type type="application/x-netcdf">
+    <glob>nc</glob>
+    <glob>cdf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.intercon.formnet">
+    <glob>xpw</glob>
+    <glob>xpx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kspread">
+    <glob>ksp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.draw">
+    <glob>sda</glob>
+  </mime-type>
+  <mime-type type="application/prs.cww">
+    <glob>cww</glob>
+  </mime-type>
+  <mime-type type="application/x-sas">
+    <glob>sas</glob>
+  </mime-type>
+  <mime-type type="application/xop+xml">
+    <glob>xop</glob>
+  </mime-type>
+  <mime-type type="image/x-xpixmap">
+    <glob>xpm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-approach">
+    <glob>apr</glob>
+  </mime-type>
+  <mime-type type="audio/speex">
+    <glob>spx</glob>
+  </mime-type>
+  <mime-type type="video/quicktime">
+    <glob>qt</glob>
+    <glob>mov</glob>
+  </mime-type>
+  <mime-type type="video/mp4">
+    <glob>mp4</glob>
+    <glob>mp4v</glob>
+    <glob>mpg4</glob>
+  </mime-type>
+  <mime-type type="application/x-sh">
+    <glob>sh</glob>
+    <glob>bash</glob>
+  </mime-type>
+  <mime-type type="video/webm">
+    <glob>webm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.stencil.macroenabled.12">
+    <glob>vssm</glob>
+  </mime-type>
+  <mime-type type="image/vnd.djvu">
+    <glob>djvu</glob>
+    <glob>djv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.nokia.radio-presets">
+    <glob>rpss</glob>
+  </mime-type>
+  <mime-type type="application/x-archive">
+    <glob>ar</glob>
+    <glob>a</glob>
+  </mime-type>
+  <mime-type type="video/x-ms-wm">
+    <glob>wm</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dgn;version=7">
+    <glob>dgn</glob>
+    <glob>dgnlib</glob>
+    <glob>cel</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.drawing">
+    <glob>vsdx</glob>
+  </mime-type>
+  <mime-type type="text/x-vbscript">
+    <glob>vbs</glob>
+  </mime-type>
+  <mime-type type="application/vnd.etsi.asic-s+zip">
+    <glob>asics</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-word.template.macroenabled.12">
+    <glob>dotm</glob>
+  </mime-type>
+  <mime-type type="text/vnd.curl.scurl">
+    <glob>scurl</glob>
+  </mime-type>
+  <mime-type type="application/x-dex">
+    <glob>dex</glob>
+  </mime-type>
+  <mime-type type="application/x-bat">
+    <glob>bat</glob>
+    <glob>cmd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujixerox.docuworks">
+    <glob>xdw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mophun.certificate">
+    <glob>mpc</glob>
+  </mime-type>
+  <mime-type type="text/x-fortran">
+    <glob>f</glob>
+    <glob>f</glob>
+    <glob>for</glob>
+    <glob>f77</glob>
+    <glob>f90</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.hv-script">
+    <glob>hvs</glob>
+  </mime-type>
+  <mime-type type="audio/x-oggflac">
+    <glob>oga</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hhe.lesson-player">
+    <glob>les</glob>
+  </mime-type>
+  <mime-type type="video/3gpp">
+    <glob>3gp</glob>
+  </mime-type>
+  <mime-type type="application/x-chess-pgn">
+    <glob>pgn</glob>
+  </mime-type>
+  <mime-type type="application/x-silverlight-app">
+    <glob>xap</glob>
+  </mime-type>
+  <mime-type type="application/vnd.claymore">
+    <glob>cla</glob>
+  </mime-type>
+  <mime-type type="application/vnd.acucorp">
+    <glob>atc</glob>
+    <glob>acutc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.denovo.fcselayout-link">
+    <glob>fe_launch</glob>
+  </mime-type>
+  <mime-type type="text/x-eiffel">
+    <glob>e</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.impress">
+    <glob>sdd</glob>
+  </mime-type>
+  <mime-type type="application/zip">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="application/xquery">
+    <glob>xq</glob>
+    <glob>xquery</glob>
+  </mime-type>
+  <mime-type type="application/xslt+xml">
+    <glob>xslt</glob>
+  </mime-type>
+  <mime-type type="audio/x-caf">
+    <glob>caf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-vcard">
+    <glob>vcg</glob>
+  </mime-type>
+  <mime-type type="image/vnd.adobe.photoshop">
+    <glob>psd</glob>
+  </mime-type>
+  <mime-type type="application/x-project">
+    <glob>mpx</glob>
+  </mime-type>
+  <mime-type type="model/vnd.vtu">
+    <glob>vtu</glob>
+  </mime-type>
+  <mime-type type="text/x-uuencode">
+    <glob>uu</glob>
+  </mime-type>
+  <mime-type type="image/vnd.zbrush.pcx">
+    <glob>pcx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hydrostatix.sof-data">
+    <glob>sfd-hdstx</glob>
+  </mime-type>
+  <mime-type type="text/x-haxe">
+    <glob>hx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.indesign-idml-package">
+    <glob>idml</glob>
+  </mime-type>
+  <mime-type type="image/x-cmx">
+    <glob>cmx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.google-earth.kmz">
+    <glob>kmz</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-program-data">
+    <glob>ss7</glob>
+    <glob>sas7bpgm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.syncml.dm+xml">
+    <glob>xdm</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-utility">
+    <glob>su7</glob>
+    <glob>sas7butl</glob>
+  </mime-type>
+  <mime-type type="text/x-less">
+    <glob>less</glob>
+  </mime-type>
+  <mime-type type="application/vnd.vcx">
+    <glob>vcx</glob>
+  </mime-type>
+  <mime-type type="application/set-payment-initiation">
+    <glob>setpay</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wordperfect;version=6.x">
+    <glob>wpd</glob>
+    <glob>wp</glob>
+    <glob>wp5</glob>
+    <glob>wp6</glob>
+    <glob>w60</glob>
+    <glob>wp61</glob>
+    <glob>wpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-spreadsheetml">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="text/vnd.fly">
+    <glob>fly</glob>
+  </mime-type>
+  <mime-type type="text/x-ini">
+    <glob>ini</glob>
+  </mime-type>
+  <mime-type type="application/x-java-pack200">
+    <glob>pack</glob>
+  </mime-type>
+  <mime-type type="application/x-apple-diskimage">
+    <glob>dmg</glob>
+  </mime-type>
+  <mime-type type="video/x-ms-wvx">
+    <glob>wvx</glob>
+  </mime-type>
+  <mime-type type="text/x-tcl">
+    <glob>itk</glob>
+    <glob>tcl</glob>
+    <glob>tk</glob>
+  </mime-type>
+  <mime-type type="application/x-authorware-bin">
+    <glob>aab</glob>
+    <glob>x32</glob>
+    <glob>u32</glob>
+    <glob>vox</glob>
+  </mime-type>
+  <mime-type type="application/vnd.proteus.magazine">
+    <glob>mgz</glob>
+  </mime-type>
+  <mime-type type="text/x-robots">
+    <glob>txt</glob>
+    <glob>text</glob>
+    <glob>def</glob>
+    <glob>list</glob>
+    <glob>in</glob>
+    <glob>install</glob>
+    <glob>keys</glob>
+    <glob>license</glob>
+    <glob>notice</glob>
+    <glob>readme</glob>
+    <glob>abs-linkmap</glob>
+    <glob>abs-menulinks</glob>
+    <glob>aart</glob>
+    <glob>ac</glob>
+    <glob>am</glob>
+    <glob>apt</glob>
+    <glob>bsh</glob>
+    <glob>classpath</glob>
+    <glob>cnd</glob>
+    <glob>cwiki</glob>
+    <glob>data</glob>
+    <glob>dcl</glob>
+    <glob>dsp</glob>
+    <glob>dsw</glob>
+    <glob>egrm</glob>
+    <glob>ent</glob>
+    <glob>ft</glob>
+    <glob>fn</glob>
+    <glob>fv</glob>
+    <glob>grm</glob>
+    <glob>g</glob>
+    <glob>.htaccess</glob>
+    <glob>handlers</glob>
+    <glob>htc</glob>
+    <glob>ihtml</glob>
+    <glob>jmx</glob>
+    <glob>junit</glob>
+    <glob>jx</glob>
+    <glob>manifest</glob>
+    <glob>m4</glob>
+    <glob>mf</glob>
+    <glob>mf</glob>
+    <glob>meta</glob>
+    <glob>mdo</glob>
+    <glob>n3</glob>
+    <glob>pen</glob>
+    <glob>pod</glob>
+    <glob>pom</glob>
+    <glob>project</glob>
+    <glob>rng</glob>
+    <glob>rnx</glob>
+    <glob>roles</glob>
+    <glob>schemas</glob>
+    <glob>tld</glob>
+    <glob>types</glob>
+    <glob>vm</glob>
+    <glob>vsl</glob>
+    <glob>wsdd</glob>
+    <glob>xargs</glob>
+    <glob>xcat</glob>
+    <glob>xegrm</glob>
+    <glob>xgrm</glob>
+    <glob>xlex</glob>
+    <glob>xlog</glob>
+    <glob>xmap</glob>
+    <glob>xroles</glob>
+    <glob>xsamples</glob>
+    <glob>xsp</glob>
+    <glob>xtest</glob>
+    <glob>xweb</glob>
+    <glob>xwelcome</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.aftereffects.project">
+    <glob>aep</glob>
+  </mime-type>
+  <mime-type type="application/x-xz">
+    <glob>xz</glob>
+  </mime-type>
+  <mime-type type="model/vnd.gtw">
+    <glob>gtw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.drawing.macroenabled.12">
+    <glob>vsdm</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-casio">
+    <glob>bay</glob>
+  </mime-type>
+  <mime-type type="application/x-font-linux-psf">
+    <glob>psf</glob>
+  </mime-type>
+  <mime-type type="text/x-yacc">
+    <glob>y</glob>
+  </mime-type>
+  <mime-type type="application/vnd.3gpp.pic-bw-large">
+    <glob>plb</glob>
+  </mime-type>
+  <mime-type type="application/x-authorware-map">
+    <glob>aam</glob>
+  </mime-type>
+  <mime-type type="application/x-director">
+    <glob>dir</glob>
+    <glob>dcr</glob>
+    <glob>dxr</glob>
+    <glob>cst</glob>
+    <glob>cct</glob>
+    <glob>cxt</glob>
+    <glob>w3d</glob>
+    <glob>fgd</glob>
+    <glob>swa</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-injector">
+    <glob>grv</glob>
+  </mime-type>
+  <mime-type type="application/x-msaccess">
+    <glob>mdb</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe-arm7">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="application/x-pkcs7-certificates">
+    <glob>p7b</glob>
+    <glob>spc</glob>
+  </mime-type>
+  <mime-type type="application/pkix-crl">
+    <glob>crl</glob>
+  </mime-type>
+  <mime-type type="image/x-xwindowdump">
+    <glob>xwd</glob>
+  </mime-type>
+  <mime-type type="application/x-cpio">
+    <glob>cpio</glob>
+  </mime-type>
+  <mime-type type="image/vnd.ms-modi">
+    <glob>mdi</glob>
+  </mime-type>
+  <mime-type type="application/x-font-pcf">
+    <glob>pcf</glob>
+  </mime-type>
+  <mime-type type="video/x-sgi-movie">
+    <glob>movie</glob>
+  </mime-type>
+  <mime-type type="application/vnd.criticaltools.wbs+xml">
+    <glob>wbs</glob>
+  </mime-type>
+  <mime-type type="application/x-mysql-misam-compressed-index">
+    <glob>myi</glob>
+  </mime-type>
+  <mime-type type="text/x-asciidoc">
+    <glob>asciidoc</glob>
+    <glob>adoc</glob>
+    <glob>ad</glob>
+    <glob>ad.txt</glob>
+    <glob>adoc.txt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.presentation-template">
+    <glob>otp</glob>
+  </mime-type>
+  <mime-type type="audio/x-aac">
+    <glob>aac</glob>
+  </mime-type>
+  <mime-type type="application/x-dbf">
+    <glob>dbf</glob>
+    <glob>dbase</glob>
+    <glob>dbase3</glob>
+  </mime-type>
+  <mime-type type="text/x-makefile">
+    <glob>makefile</glob>
+    <glob>gnumakefile</glob>
+  </mime-type>
+  <mime-type type="application/pkixcmp">
+    <glob>pki</glob>
+  </mime-type>
+  <mime-type type="image/x-portable-graymap">
+    <glob>pgm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ibm.secure-container">
+    <glob>sc</glob>
+  </mime-type>
+  <mime-type type="application/x-shockwave-flash">
+    <glob>swf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.jisp">
+    <glob>jisp</glob>
+  </mime-type>
+  <mime-type type="application/xv+xml">
+    <glob>mxml</glob>
+    <glob>xhvml</glob>
+    <glob>xvml</glob>
+    <glob>xvm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint.presentation.macroenabled.12">
+    <glob>pptm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.previewsystems.box">
+    <glob>box</glob>
+  </mime-type>
+  <mime-type type="application/x-brotli">
+    <glob>br</glob>
+    <glob>brotli</glob>
+  </mime-type>
+  <mime-type type="application/x-ustar">
+    <glob>ustar</glob>
+  </mime-type>
+  <mime-type type="application/wspolicy+xml">
+    <glob>wspolicy</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-project">
+    <glob>mpp</glob>
+    <glob>mpt</glob>
+  </mime-type>
+  <mime-type type="application/x-axcrypt">
+    <glob>axx</glob>
+  </mime-type>
+  <mime-type type="image/vnd.adobe.premiere">
+    <glob>ppj</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-nikon">
+    <glob>nef</glob>
+    <glob>nrw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.java.hprof ">
+    <glob>hprof</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.xfdf">
+    <glob>xfdf</glob>
+  </mime-type>
+  <mime-type type="application/x-isatab-investigation">
+    <glob>i_*.txt</glob>
+  </mime-type>
+  <mime-type type="text/x-ml">
+    <glob>ml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujitsu.oasys2">
+    <glob>oa2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.text-template">
+    <glob>ott</glob>
+  </mime-type>
+  <mime-type type="audio/x-matroska">
+    <glob>mka</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujitsu.oasys3">
+    <glob>oa3</glob>
+  </mime-type>
+  <mime-type type="application/x-hdf">
+    <glob>hdf</glob>
+    <glob>he5</glob>
+    <glob>h5</glob>
+  </mime-type>
+  <mime-type type="application/x-texinfo">
+    <glob>texinfo</glob>
+    <glob>texi</glob>
+  </mime-type>
+  <mime-type type="application/pls+xml">
+    <glob>pls</glob>
+  </mime-type>
+  <mime-type type="application/x-font-ghostscript">
+    <glob>gsf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.flat.presentation">
+    <glob>fodp</glob>
+  </mime-type>
+  <mime-type type="application/x-font-printer-metric">
+    <glob>pfm</glob>
+  </mime-type>
+  <mime-type type="image/bmp">
+    <glob>bmp</glob>
+    <glob>dib</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-pclxl">
+    <glob>pclxl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mfer">
+    <glob>mwf</glob>
+  </mime-type>
+  <mime-type type="application/scvp-vp-request">
+    <glob>spq</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-imacon">
+    <glob>fff</glob>
+  </mime-type>
+  <mime-type type="application/onenote;format=one">
+    <glob>one</glob>
+  </mime-type>
+  <mime-type type="image/x-cmu-raster">
+    <glob>ras</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-sony">
+    <glob>arw</glob>
+    <glob>srf</glob>
+    <glob>sr2</glob>
+  </mime-type>
+  <mime-type type="text/x-coffeescript">
+    <glob>coffee</glob>
+  </mime-type>
+  <mime-type type="application/vnd.quark.quarkxpress">
+    <glob>qxd</glob>
+    <glob>qxt</glob>
+    <glob>qwd</glob>
+    <glob>qwt</glob>
+    <glob>qxl</glob>
+    <glob>qxb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wordperfect;version=4.2">
+    <glob>wpd</glob>
+    <glob>wp</glob>
+    <glob>wp5</glob>
+    <glob>wp6</glob>
+    <glob>w60</glob>
+    <glob>wp61</glob>
+    <glob>wpt</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-application">
+    <glob>application</glob>
+  </mime-type>
+  <mime-type type="application/x-tex-tfm">
+    <glob>tfm</glob>
+  </mime-type>
+  <mime-type type="video/iso.segment">
+    <glob>m4s</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.formula-template">
+    <glob>odft</glob>
+  </mime-type>
+  <mime-type type="application/vnd.xfdl">
+    <glob>xfdl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.nokia.n-gage.symbian.install">
+    <glob>n-gage</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-account">
+    <glob>gac</glob>
+  </mime-type>
+  <mime-type type="application/wasm">
+    <glob>wasm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-powerpoint">
+    <glob>ppt</glob>
+    <glob>ppz</glob>
+    <glob>pps</glob>
+    <glob>pot</glob>
+    <glob>ppa</glob>
+  </mime-type>
+  <mime-type type="text/x-idl">
+    <glob>idl</glob>
+  </mime-type>
+  <mime-type type="image/tiff">
+    <glob>tiff</glob>
+    <glob>tif</glob>
+  </mime-type>
+  <mime-type type="application/x-stuffit">
+    <glob>sit</glob>
+  </mime-type>
+  <mime-type type="text/x-scala">
+    <glob>scala</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wap.wbxml">
+    <glob>wbxml</glob>
+  </mime-type>
+  <mime-type type="application/onenote;format=onetoc2">
+    <glob>onetoc</glob>
+    <glob>onetoc2</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-wmd">
+    <glob>wmd</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.dts.hd">
+    <glob>dtshd</glob>
+  </mime-type>
+  <mime-type type="text/x-cobol">
+    <glob>cbl</glob>
+    <glob>cbl</glob>
+    <glob>cbl</glob>
+    <glob>cob</glob>
+    <glob>cob</glob>
+    <glob>cob</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wt.stf">
+    <glob>stf</glob>
+  </mime-type>
+  <mime-type type="audio/adpcm">
+    <glob>adp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.etsi.asic-e+zip">
+    <glob>asice</glob>
+  </mime-type>
+  <mime-type type="video/x-matroska">
+    <glob>mkv</glob>
+  </mime-type>
+  <mime-type type="application/applixware">
+    <glob>aw</glob>
+  </mime-type>
+  <mime-type type="text/x-yaml">
+    <glob>yaml</glob>
+    <glob>yml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ezpix-album">
+    <glob>ez2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.calc">
+    <glob>sxc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oma.dd2+xml">
+    <glob>dd2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.text-web">
+    <glob>oth</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-wmz">
+    <glob>wmz</glob>
+  </mime-type>
+  <mime-type type="video/jpeg">
+    <glob>jpgv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.svd">
+    <glob>svd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-hpid">
+    <glob>hpid</glob>
+  </mime-type>
+  <mime-type type="application/x-bzip">
+    <glob>bz</glob>
+    <glob>tbz</glob>
+  </mime-type>
+  <mime-type type="text/x-setext">
+    <glob>etx</glob>
+  </mime-type>
+  <mime-type type="application/zstd">
+    <glob>zstd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.airzip.filesecure.azs">
+    <glob>azs</glob>
+  </mime-type>
+  <mime-type type="application/x-arj">
+    <glob>arj</glob>
+  </mime-type>
+  <mime-type type="application/x-java-jnlp-file">
+    <glob>jnlp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.novadigm.ext">
+    <glob>ext</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-epson">
+    <glob>erf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.base">
+    <glob>odb</glob>
+  </mime-type>
+  <mime-type type="application/x-doom">
+    <glob>wad</glob>
+  </mime-type>
+  <mime-type type="audio/x-mod">
+    <glob>mod</glob>
+  </mime-type>
+  <mime-type type="text/vnd.sun.j2me.app-descriptor">
+    <glob>jad</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.wave">
+    <glob>wav</glob>
+  </mime-type>
+  <mime-type type="application/vnd.uoml+xml">
+    <glob>uoml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.airzip.filesecure.azf">
+    <glob>azf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.msl">
+    <glob>msl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.presentation">
+    <glob>odp</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe-armle">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="application/x-uc2-compressed">
+    <glob>uc2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.irepository.package+xml">
+    <glob>irp</glob>
+  </mime-type>
+  <mime-type type="text/x-assembly">
+    <glob>s</glob>
+    <glob>s</glob>
+    <glob>asm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mif">
+    <glob>mif</glob>
+  </mime-type>
+  <mime-type type="image/jxl">
+    <glob>jxl</glob>
+  </mime-type>
+  <mime-type type="audio/ac3">
+    <glob>ac3</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hp-hpgl">
+    <glob>hpgl</glob>
+  </mime-type>
+  <mime-type type="video/mj2">
+    <glob>mj2</glob>
+    <glob>mjp2</glob>
+  </mime-type>
+  <mime-type type="application/ogg">
+    <glob>ogx</glob>
+  </mime-type>
+  <mime-type type="audio/vorbis">
+    <glob>ogg</glob>
+  </mime-type>
+  <mime-type type="application/vnd.amiga.ami">
+    <glob>ami</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-data-v6">
+    <glob>sd2</glob>
+  </mime-type>
+  <mime-type type="audio/eac3">
+    <glob>ac3</glob>
+  </mime-type>
+  <mime-type type="video/vnd.fvt">
+    <glob>fvt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ibm.rights-management">
+    <glob>irm</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.digital-winds">
+    <glob>eol</glob>
+  </mime-type>
+  <mime-type type="application/vnd.hzn-3d-crossword">
+    <glob>x3d</glob>
+  </mime-type>
+  <mime-type type="application/xslfo+xml">
+    <glob>xslfo</glob>
+    <glob>fo</glob>
+  </mime-type>
+  <mime-type type="application/x-grib">
+    <glob>grb</glob>
+    <glob>grb1</glob>
+    <glob>grb2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujitsu.oasysgp">
+    <glob>fg5</glob>
+  </mime-type>
+  <mime-type type="application/vnd.anser-web-funds-transfer-initiation">
+    <glob>fti</glob>
+  </mime-type>
+  <mime-type type="application/vnd.solent.sdkm+xml">
+    <glob>sdkm</glob>
+    <glob>sdkd</glob>
+  </mime-type>
+  <mime-type type="image/prs.btif">
+    <glob>btif</glob>
+  </mime-type>
+  <mime-type type="application/x-authorware-seg">
+    <glob>aas</glob>
+  </mime-type>
+  <mime-type type="application/x-chat">
+    <glob>chat</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dxf;format=binary">
+    <glob>dxf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mindjet.mindmanager">
+    <glob>mmp</glob>
+    <glob>mmap</glob>
+    <glob>mmpt</glob>
+    <glob>mmat</glob>
+    <glob>mmmp</glob>
+    <glob>mmas</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.image">
+    <glob>odi</glob>
+  </mime-type>
+  <mime-type type="application/x-bzip2">
+    <glob>bz2</glob>
+    <glob>tbz2</glob>
+    <glob>boz</glob>
+  </mime-type>
+  <mime-type type="application/atomcat+xml">
+    <glob>atomcat</glob>
+  </mime-type>
+  <mime-type type="application/vnd.micrografx.flo">
+    <glob>flo</glob>
+  </mime-type>
+  <mime-type type="text/x-coldfusion">
+    <glob>cfm</glob>
+    <glob>cfml</glob>
+    <glob>cfc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openofficeorg.autotext">
+    <glob>bau</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-dta;version=8">
+    <glob>dta</glob>
+  </mime-type>
+  <mime-type type="application/x-msmediaview">
+    <glob>mvb</glob>
+    <glob>m13</glob>
+    <glob>m14</glob>
+  </mime-type>
+  <mime-type type="application/x-fictionbook+xml">
+    <glob>fb2</glob>
+  </mime-type>
+  <mime-type type="text/x-vcard">
+    <glob>vcf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.android.package-archive">
+    <glob>apk</glob>
+  </mime-type>
+  <mime-type type="application/x-gnumeric">
+    <glob>gnumeric</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sema">
+    <glob>sema</glob>
+  </mime-type>
+  <mime-type type="application/vnd.grafeq">
+    <glob>gqf</glob>
+    <glob>gqs</glob>
+  </mime-type>
+  <mime-type type="application/x-font-ttf">
+    <glob>ttf</glob>
+    <glob>ttc</glob>
+  </mime-type>
+  <mime-type type="application/x-xpinstall">
+    <glob>xpi</glob>
+  </mime-type>
+  <mime-type type="application/vnd.semd">
+    <glob>semd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.semf">
+    <glob>semf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.shana.informed.interchange">
+    <glob>iif</glob>
+  </mime-type>
+  <mime-type type="application/x-prt">
+    <glob>prt</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dxb">
+    <glob>dxb</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.nuera.ecelp4800">
+    <glob>ecelp4800</glob>
+  </mime-type>
+  <mime-type type="application/x-stata-do">
+    <glob>do</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dxf">
+    <glob>dxf</glob>
+  </mime-type>
+  <mime-type type="message/rfc822">
+    <glob>eml</glob>
+    <glob>mime</glob>
+  </mime-type>
+  <mime-type type="application/vnd.visio">
+    <glob>vsd</glob>
+    <glob>vst</glob>
+    <glob>vss</glob>
+    <glob>vsw</glob>
+  </mime-type>
+  <mime-type type="application/x-csh">
+    <glob>csh</glob>
+    <glob>tcsh</glob>
+  </mime-type>
+  <mime-type type="image/wmf">
+    <glob>wmf</glob>
+  </mime-type>
+  <mime-type type="application/x-matlab-data">
+    <glob>mat</glob>
+  </mime-type>
+  <mime-type type="application/vnd.jcp.javame.midlet-rms">
+    <glob>rms</glob>
+  </mime-type>
+  <mime-type type="application/vnd.epson.esf">
+    <glob>esf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fuzzysheet">
+    <glob>fzs</glob>
+  </mime-type>
+  <mime-type type="application/hyperstudio">
+    <glob>stk</glob>
+  </mime-type>
+  <mime-type type="application/vnd.americandynamics.acc">
+    <glob>acc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.presentationml.slide">
+    <glob>sldx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.flographit">
+    <glob>gph</glob>
+  </mime-type>
+  <mime-type type="application/vnd.iptc.g2.newsmessage+xml">
+    <glob>nar</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mseq">
+    <glob>mseq</glob>
+  </mime-type>
+  <mime-type type="audio/mp4">
+    <glob>mp4a</glob>
+    <glob>m4a</glob>
+    <glob>m4b</glob>
+  </mime-type>
+  <mime-type type="application/x-xliff+xml">
+    <glob>xlf</glob>
+    <glob>xliff</glob>
+  </mime-type>
+  <mime-type type="video/x-flc">
+    <glob>flc</glob>
+  </mime-type>
+  <mime-type type="application/pdf">
+    <glob>pdf</glob>
+  </mime-type>
+  <mime-type type="application/pgp-encrypted">
+    <glob>pgp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wap.wmlc">
+    <glob>wmlc</glob>
+  </mime-type>
+  <mime-type type="application/x-bittorrent">
+    <glob>torrent</glob>
+  </mime-type>
+  <mime-type type="text/x-perl">
+    <glob>pl</glob>
+    <glob>pm</glob>
+    <glob>al</glob>
+    <glob>perl</glob>
+  </mime-type>
+  <mime-type type="application/sparql-results+xml">
+    <glob>srx</glob>
+  </mime-type>
+  <mime-type type="application/x-abiword">
+    <glob>abw</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml;format=map">
+    <glob>ditamap</glob>
+  </mime-type>
+  <mime-type type="video/x-fli">
+    <glob>fli</glob>
+  </mime-type>
+  <mime-type type="application/mathml+xml">
+    <glob>mathml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kde.kword">
+    <glob>kwd</glob>
+    <glob>kwt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-wpl">
+    <glob>wpl</glob>
+  </mime-type>
+  <mime-type type="model/vnd.dwf;version=6">
+    <glob>dwf</glob>
+  </mime-type>
+  <mime-type type="application/x-rpm">
+    <glob>rpm</glob>
+  </mime-type>
+  <mime-type type="image/vnd.microsoft.icon">
+    <glob>ico</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.writer.template">
+    <glob>stw</glob>
+  </mime-type>
+  <mime-type type="application/vnd.wordperfect">
+    <glob>wpd</glob>
+    <glob>wp</glob>
+    <glob>wp5</glob>
+    <glob>wp6</glob>
+    <glob>w60</glob>
+    <glob>wp61</glob>
+    <glob>wpt</glob>
+  </mime-type>
+  <mime-type type="application/vnd.umajin">
+    <glob>umj</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-word2006ml">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="text/x-php">
+    <glob>php</glob>
+    <glob>php3</glob>
+    <glob>php4</glob>
+  </mime-type>
+  <mime-type type="application/x-font-adobe-metric">
+    <glob>afm</glob>
+    <glob>acfm</glob>
+    <glob>amfm</glob>
+  </mime-type>
+  <mime-type type="model/vrml">
+    <glob>wrl</glob>
+    <glob>vrml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.smaf-phrase">
+    <glob>spf</glob>
+  </mime-type>
+  <mime-type type="application/javascript">
+    <glob>js</glob>
+  </mime-type>
+  <mime-type type="application/vnd.intu.qbo">
+    <glob>qbo</glob>
+  </mime-type>
+  <mime-type type="application/ssml+xml">
+    <glob>ssml</glob>
+  </mime-type>
+  <mime-type type="image/g3fax">
+    <glob>g3</glob>
+  </mime-type>
+  <mime-type type="text/x-scheme">
+    <glob>scm</glob>
+  </mime-type>
+  <mime-type type="application/x-erdas-hfa">
+    <glob>hfa</glob>
+  </mime-type>
+  <mime-type type="application/resource-lists-diff+xml">
+    <glob>rld</glob>
+  </mime-type>
+  <mime-type type="application/x-compress">
+    <glob>z</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-tool-message">
+    <glob>gtm</glob>
+  </mime-type>
+  <mime-type type="image/vnd.dwg">
+    <glob>dwg</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.writer.global">
+    <glob>sxg</glob>
+  </mime-type>
+  <mime-type type="application/vnd.iccprofile">
+    <glob>icc</glob>
+    <glob>icm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mfmp">
+    <glob>mfm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.chart-template">
+    <glob>otc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+    <glob>xlsx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.shana.informed.package">
+    <glob>ipk</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-catalog">
+    <glob>sc7</glob>
+    <glob>sas7bcat</glob>
+  </mime-type>
+  <mime-type type="text/x-go">
+    <glob>go</glob>
+  </mime-type>
+  <mime-type type="application/fits">
+    <glob>fits</glob>
+    <glob>fit</glob>
+    <glob>fts</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-olympus">
+    <glob>orf</glob>
+  </mime-type>
+  <mime-type type="application/java-vm">
+    <glob>class</glob>
+  </mime-type>
+  <mime-type type="application/andrew-inset">
+    <glob>ez</glob>
+  </mime-type>
+  <mime-type type="application/vnd.stardivision.math">
+    <glob>smf</glob>
+  </mime-type>
+  <mime-type type="video/ogg">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/atomsvc+xml">
+    <glob>atomsvc</glob>
+  </mime-type>
+  <mime-type type="text/x-java-properties">
+    <glob>properties</glob>
+  </mime-type>
+  <mime-type type="application/msword">
+    <glob>doc</glob>
+    <glob>dot</glob>
+  </mime-type>
+  <mime-type type="image/jpm">
+    <glob>jpm</glob>
+    <glob>jpgm</glob>
+  </mime-type>
+  <mime-type type="image/jpx">
+    <glob>jpf</glob>
+  </mime-type>
+  <mime-type type="text/vnd.graphviz">
+    <glob>gv</glob>
+  </mime-type>
+  <mime-type type="text/vnd.in3d.spot">
+    <glob>spot</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ezpix-package">
+    <glob>ez3</glob>
+  </mime-type>
+  <mime-type type="application/x-font-otf">
+    <glob>otf</glob>
+  </mime-type>
+  <mime-type type="video/daala">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.route66.link66+xml">
+    <glob>link66</glob>
+  </mime-type>
+  <mime-type type="video/x-dirac">
+    <glob>drc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.vsf">
+    <glob>vsf</glob>
+  </mime-type>
+  <mime-type type="application/cbor">
+    <glob>cbor</glob>
+  </mime-type>
+  <mime-type type="application/manifest+json">
+    <glob>webmanifest</glob>
+  </mime-type>
+  <mime-type type="image/vnd.wap.wbmp">
+    <glob>wbmp</glob>
+  </mime-type>
+  <mime-type type="video/theora">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ctc-posml">
+    <glob>pml</glob>
+  </mime-type>
+  <mime-type type="application/kate">
+    <glob>ogx</glob>
+  </mime-type>
+  <mime-type type="application/pkcs7-mime">
+    <glob>p7m</glob>
+    <glob>p7c</glob>
+  </mime-type>
+  <mime-type type="application/vnd.powerbuilder6">
+    <glob>pbd</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-hasselblad">
+    <glob>3fr</glob>
+  </mime-type>
+  <mime-type type="application/vnd.intu.qfx">
+    <glob>qfx</glob>
+  </mime-type>
+  <mime-type type="application/x-java-jnilib">
+    <glob>jnilib</glob>
+  </mime-type>
+  <mime-type type="text/x-matlab">
+    <glob>txt</glob>
+    <glob>text</glob>
+    <glob>def</glob>
+    <glob>list</glob>
+    <glob>in</glob>
+    <glob>install</glob>
+    <glob>keys</glob>
+    <glob>license</glob>
+    <glob>notice</glob>
+    <glob>readme</glob>
+    <glob>abs-linkmap</glob>
+    <glob>abs-menulinks</glob>
+    <glob>aart</glob>
+    <glob>ac</glob>
+    <glob>am</glob>
+    <glob>apt</glob>
+    <glob>bsh</glob>
+    <glob>classpath</glob>
+    <glob>cnd</glob>
+    <glob>cwiki</glob>
+    <glob>data</glob>
+    <glob>dcl</glob>
+    <glob>dsp</glob>
+    <glob>dsw</glob>
+    <glob>egrm</glob>
+    <glob>ent</glob>
+    <glob>ft</glob>
+    <glob>fn</glob>
+    <glob>fv</glob>
+    <glob>grm</glob>
+    <glob>g</glob>
+    <glob>.htaccess</glob>
+    <glob>handlers</glob>
+    <glob>htc</glob>
+    <glob>ihtml</glob>
+    <glob>jmx</glob>
+    <glob>junit</glob>
+    <glob>jx</glob>
+    <glob>manifest</glob>
+    <glob>m4</glob>
+    <glob>mf</glob>
+    <glob>mf</glob>
+    <glob>meta</glob>
+    <glob>mdo</glob>
+    <glob>n3</glob>
+    <glob>pen</glob>
+    <glob>pod</glob>
+    <glob>pom</glob>
+    <glob>project</glob>
+    <glob>rng</glob>
+    <glob>rnx</glob>
+    <glob>roles</glob>
+    <glob>schemas</glob>
+    <glob>tld</glob>
+    <glob>types</glob>
+    <glob>vm</glob>
+    <glob>vsl</glob>
+    <glob>wsdd</glob>
+    <glob>xargs</glob>
+    <glob>xcat</glob>
+    <glob>xegrm</glob>
+    <glob>xgrm</glob>
+    <glob>xlex</glob>
+    <glob>xlog</glob>
+    <glob>xmap</glob>
+    <glob>xroles</glob>
+    <glob>xsamples</glob>
+    <glob>xsp</glob>
+    <glob>xtest</glob>
+    <glob>xweb</glob>
+    <glob>xwelcome</glob>
+  </mime-type>
+  <mime-type type="application/x-vnd.datapackage+gz">
+    <glob>gz</glob>
+    <glob>tgz</glob>
+    <glob>*-gz</glob>
+  </mime-type>
+  <mime-type type="audio/x-pn-realaudio">
+    <glob>ram</glob>
+    <glob>ra</glob>
+  </mime-type>
+  <mime-type type="application/vnd.koan">
+    <glob>skp</glob>
+    <glob>skd</glob>
+    <glob>skt</glob>
+    <glob>skm</glob>
+  </mime-type>
+  <mime-type type="application/cu-seeme">
+    <glob>cu</glob>
+  </mime-type>
+  <mime-type type="text/plain">
+    <glob>txt</glob>
+    <glob>text</glob>
+    <glob>def</glob>
+    <glob>list</glob>
+    <glob>in</glob>
+    <glob>install</glob>
+    <glob>keys</glob>
+    <glob>license</glob>
+    <glob>notice</glob>
+    <glob>readme</glob>
+    <glob>abs-linkmap</glob>
+    <glob>abs-menulinks</glob>
+    <glob>aart</glob>
+    <glob>ac</glob>
+    <glob>am</glob>
+    <glob>apt</glob>
+    <glob>bsh</glob>
+    <glob>classpath</glob>
+    <glob>cnd</glob>
+    <glob>cwiki</glob>
+    <glob>data</glob>
+    <glob>dcl</glob>
+    <glob>dsp</glob>
+    <glob>dsw</glob>
+    <glob>egrm</glob>
+    <glob>ent</glob>
+    <glob>ft</glob>
+    <glob>fn</glob>
+    <glob>fv</glob>
+    <glob>grm</glob>
+    <glob>g</glob>
+    <glob>.htaccess</glob>
+    <glob>handlers</glob>
+    <glob>htc</glob>
+    <glob>ihtml</glob>
+    <glob>jmx</glob>
+    <glob>junit</glob>
+    <glob>jx</glob>
+    <glob>manifest</glob>
+    <glob>m4</glob>
+    <glob>mf</glob>
+    <glob>mf</glob>
+    <glob>meta</glob>
+    <glob>mdo</glob>
+    <glob>n3</glob>
+    <glob>pen</glob>
+    <glob>pod</glob>
+    <glob>pom</glob>
+    <glob>project</glob>
+    <glob>rng</glob>
+    <glob>rnx</glob>
+    <glob>roles</glob>
+    <glob>schemas</glob>
+    <glob>tld</glob>
+    <glob>types</glob>
+    <glob>vm</glob>
+    <glob>vsl</glob>
+    <glob>wsdd</glob>
+    <glob>xargs</glob>
+    <glob>xcat</glob>
+    <glob>xegrm</glob>
+    <glob>xgrm</glob>
+    <glob>xlex</glob>
+    <glob>xlog</glob>
+    <glob>xmap</glob>
+    <glob>xroles</glob>
+    <glob>xsamples</glob>
+    <glob>xsp</glob>
+    <glob>xtest</glob>
+    <glob>xweb</glob>
+    <glob>xwelcome</glob>
+  </mime-type>
+  <mime-type type="application/x-tika-visio-ooxml">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="text/x-lex">
+    <glob>l</glob>
+  </mime-type>
+  <mime-type type="application/illustrator">
+    <glob>ai</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ecowin.chart">
+    <glob>mag</glob>
+  </mime-type>
+  <mime-type type="application/vnd.groove-identity-message">
+    <glob>gim</glob>
+  </mime-type>
+  <mime-type type="application/vnd.yamaha.hv-dic">
+    <glob>hvd</glob>
+  </mime-type>
+  <mime-type type="video/x-jng">
+    <glob>jng</glob>
+  </mime-type>
+  <mime-type type="application/x-stuffitx">
+    <glob>sitx</glob>
+  </mime-type>
+  <mime-type type="text/vnd.wap.wmlscript">
+    <glob>wmls</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-excel.template.macroenabled.12">
+    <glob>xltm</glob>
+  </mime-type>
+  <mime-type type="image/nitf">
+    <glob>ntf</glob>
+    <glob>nitf</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-red">
+    <glob>r3d</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.impress.template">
+    <glob>sti</glob>
+  </mime-type>
+  <mime-type type="video/h264">
+    <glob>h264</glob>
+  </mime-type>
+  <mime-type type="application/x-snappy-framed">
+    <glob>sz</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.formula">
+    <glob>odf</glob>
+  </mime-type>
+  <mime-type type="video/h263">
+    <glob>h263</glob>
+  </mime-type>
+  <mime-type type="video/h261">
+    <glob>h261</glob>
+  </mime-type>
+  <mime-type type="video/vnd.ms-playready.media.pyv">
+    <glob>pyv</glob>
+  </mime-type>
+  <mime-type type="application/pgp-signature">
+    <glob>asc</glob>
+    <glob>sig</glob>
+  </mime-type>
+  <mime-type type="application/x-xliff+zip">
+    <glob>xlz</glob>
+  </mime-type>
+  <mime-type type="application/onenote; format=package">
+    <glob>onepkg</glob>
+  </mime-type>
+  <mime-type type="application/x-font-type1">
+    <glob>pfa</glob>
+    <glob>pfb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.apple.iwork">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mozilla.xul+xml">
+    <glob>xul</glob>
+  </mime-type>
+  <mime-type type="application/vnd.webturbo">
+    <glob>wtb</glob>
+  </mime-type>
+  <mime-type type="image/vnd.fst">
+    <glob>fst</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.draw.template">
+    <glob>std</glob>
+  </mime-type>
+  <mime-type type="application/lost+xml">
+    <glob>lostxml</glob>
+  </mime-type>
+  <mime-type type="application/vnd.shana.informed.formtemplate">
+    <glob>itp</glob>
+  </mime-type>
+  <mime-type type="image/avif">
+    <glob>avif</glob>
+  </mime-type>
+  <mime-type type="application/vnd.handheld-entertainment+xml">
+    <glob>zmm</glob>
+  </mime-type>
+  <mime-type type="image/x-portable-bitmap">
+    <glob>pbm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.lotus-organizer">
+    <glob>org</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.nuera.ecelp7470">
+    <glob>ecelp7470</glob>
+  </mime-type>
+  <mime-type type="application/x-msschedule">
+    <glob>scd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.geogebra.tool">
+    <glob>ggt</glob>
+  </mime-type>
+  <mime-type type="text/x-vcalendar">
+    <glob>vcs</glob>
+  </mime-type>
+  <mime-type type="text/prs.lines.tag">
+    <glob>dsc</glob>
+  </mime-type>
+  <mime-type type="application/json">
+    <glob>json</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.lucent.voice">
+    <glob>lvp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.arastra.swi">
+    <glob>swi</glob>
+  </mime-type>
+  <mime-type type="text/x-objcsrc">
+    <glob>m</glob>
+  </mime-type>
+  <mime-type type="application/x-vnd.datapackage+json">
+    <glob>json</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fdsn.mseed">
+    <glob>mseed</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation">
+    <glob>pptx</glob>
+    <glob>thmx</glob>
+  </mime-type>
+  <mime-type type="application/inf">
+    <glob>txt</glob>
+    <glob>text</glob>
+    <glob>def</glob>
+    <glob>list</glob>
+    <glob>in</glob>
+    <glob>install</glob>
+    <glob>keys</glob>
+    <glob>license</glob>
+    <glob>notice</glob>
+    <glob>readme</glob>
+    <glob>abs-linkmap</glob>
+    <glob>abs-menulinks</glob>
+    <glob>aart</glob>
+    <glob>ac</glob>
+    <glob>am</glob>
+    <glob>apt</glob>
+    <glob>bsh</glob>
+    <glob>classpath</glob>
+    <glob>cnd</glob>
+    <glob>cwiki</glob>
+    <glob>data</glob>
+    <glob>dcl</glob>
+    <glob>dsp</glob>
+    <glob>dsw</glob>
+    <glob>egrm</glob>
+    <glob>ent</glob>
+    <glob>ft</glob>
+    <glob>fn</glob>
+    <glob>fv</glob>
+    <glob>grm</glob>
+    <glob>g</glob>
+    <glob>.htaccess</glob>
+    <glob>handlers</glob>
+    <glob>htc</glob>
+    <glob>ihtml</glob>
+    <glob>jmx</glob>
+    <glob>junit</glob>
+    <glob>jx</glob>
+    <glob>manifest</glob>
+    <glob>m4</glob>
+    <glob>mf</glob>
+    <glob>mf</glob>
+    <glob>meta</glob>
+    <glob>mdo</glob>
+    <glob>n3</glob>
+    <glob>pen</glob>
+    <glob>pod</glob>
+    <glob>pom</glob>
+    <glob>project</glob>
+    <glob>rng</glob>
+    <glob>rnx</glob>
+    <glob>roles</glob>
+    <glob>schemas</glob>
+    <glob>tld</glob>
+    <glob>types</glob>
+    <glob>vm</glob>
+    <glob>vsl</glob>
+    <glob>wsdd</glob>
+    <glob>xargs</glob>
+    <glob>xcat</glob>
+    <glob>xegrm</glob>
+    <glob>xgrm</glob>
+    <glob>xlex</glob>
+    <glob>xlog</glob>
+    <glob>xmap</glob>
+    <glob>xroles</glob>
+    <glob>xsamples</glob>
+    <glob>xsp</glob>
+    <glob>xtest</glob>
+    <glob>xweb</glob>
+    <glob>xwelcome</glob>
+  </mime-type>
+  <mime-type type="text/x-diff">
+    <glob>diff</glob>
+    <glob>patch</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fdsn.seed">
+    <glob>seed</glob>
+    <glob>dataless</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-lrm">
+    <glob>lrm</glob>
+  </mime-type>
+  <mime-type type="application/vnd.novadigm.edm">
+    <glob>edm</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-panasonic">
+    <glob>raw</glob>
+    <glob>rw2</glob>
+  </mime-type>
+  <mime-type type="application/vnd.kodak-descriptor">
+    <glob>sse</glob>
+  </mime-type>
+  <mime-type type="text/calendar">
+    <glob>ics</glob>
+    <glob>ifb</glob>
+  </mime-type>
+  <mime-type type="application/xml">
+    <glob>xml</glob>
+    <glob>xsl</glob>
+    <glob>xsd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.macports.portpkg">
+    <glob>portpkg</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-data-index">
+    <glob>si7</glob>
+    <glob>sas7bndx</glob>
+  </mime-type>
+  <mime-type type="text/x-cgi">
+    <glob>cgi</glob>
+  </mime-type>
+  <mime-type type="application/mxf">
+    <glob>mxf</glob>
+  </mime-type>
+  <mime-type type="application/xhtml+xml">
+    <glob>xhtml</glob>
+    <glob>xhtml2</glob>
+    <glob>xht</glob>
+  </mime-type>
+  <mime-type type="application/pkcs7-signature">
+    <glob>p7s</glob>
+  </mime-type>
+  <mime-type type="application/vnd.enliven">
+    <glob>nml</glob>
+  </mime-type>
+  <mime-type type="text/x-aspectj">
+    <glob>aj</glob>
+  </mime-type>
+  <mime-type type="application/vnd.micrografx.igx">
+    <glob>igx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.immervision-ivu">
+    <glob>ivu</glob>
+  </mime-type>
+  <mime-type type="application/vnd.chipnuts.karaoke-mmd">
+    <glob>mmd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.3gpp.pic-bw-small">
+    <glob>psb</glob>
+  </mime-type>
+  <mime-type type="application/vnd.immervision-ivp">
+    <glob>ivp</glob>
+  </mime-type>
+  <mime-type type="audio/basic">
+    <glob>au</glob>
+    <glob>snd</glob>
+  </mime-type>
+  <mime-type type="text/x-expect">
+    <glob>exp</glob>
+  </mime-type>
+  <mime-type type="text/x-chdr">
+    <glob>h</glob>
+  </mime-type>
+  <mime-type type="application/pkix-pkipath">
+    <glob>pkipath</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.txf">
+    <glob>txf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.zul">
+    <glob>zir</glob>
+    <glob>zirz</glob>
+  </mime-type>
+  <mime-type type="application/vnd.dolby.mlp">
+    <glob>mlp</glob>
+  </mime-type>
+  <mime-type type="application/x-tmx">
+    <glob>tmx</glob>
+  </mime-type>
+  <mime-type type="text/x-ada">
+    <glob>ada</glob>
+    <glob>adb</glob>
+    <glob>ads</glob>
+  </mime-type>
+  <mime-type type="application/mac-binhex40">
+    <glob>hqx</glob>
+  </mime-type>
+  <mime-type type="image/jp2">
+    <glob>jp2</glob>
+  </mime-type>
+  <mime-type type="text/x-ocaml">
+    <glob>ocaml</glob>
+    <glob>mli</glob>
+  </mime-type>
+  <mime-type type="application/x-x509-cert;format=pem">
+    <glob>pem</glob>
+  </mime-type>
+  <mime-type type="application/vnd.llamagraphics.life-balance.desktop">
+    <glob>lbd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.sun.xml.draw">
+    <glob>sxd</glob>
+  </mime-type>
+  <mime-type type="text/x-basic">
+    <glob>bas</glob>
+    <glob>bas</glob>
+    <glob>bas</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-excel.addin.macroenabled.12">
+    <glob>xlam</glob>
+  </mime-type>
+  <mime-type type="application/x-sas-putility">
+    <glob>sp7</glob>
+    <glob>sas7bput</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-pki.seccat">
+    <glob>cat</glob>
+  </mime-type>
+  <mime-type type="application/vnd.fujixerox.ddd">
+    <glob>ddd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.graphics">
+    <glob>odg</glob>
+  </mime-type>
+  <mime-type type="audio/x-ms-wax">
+    <glob>wax</glob>
+  </mime-type>
+  <mime-type type="application/vnd.gmx">
+    <glob>gmx</glob>
+  </mime-type>
+  <mime-type type="application/x-mysql-misam-data">
+    <glob>myd</glob>
+  </mime-type>
+  <mime-type type="application/vnd.trueapp">
+    <glob>tra</glob>
+  </mime-type>
+  <mime-type type="application/x-msdownload;format=pe">
+    <glob>dll</glob>
+    <glob>com</glob>
+  </mime-type>
+  <mime-type type="application/vnd.dpgraph">
+    <glob>dpg</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-minolta">
+    <glob>mrw</glob>
+  </mime-type>
+  <mime-type type="application/x-msmoney">
+    <glob>mny</glob>
+  </mime-type>
+  <mime-type type="video/x-ms-wmv">
+    <glob>wmv</glob>
+  </mime-type>
+  <mime-type type="video/x-ms-wmx">
+    <glob>wmx</glob>
+  </mime-type>
+  <mime-type type="application/rls-services+xml">
+    <glob>rs</glob>
+  </mime-type>
+  <mime-type type="text/vnd.wap.wml">
+    <glob>wml</glob>
+  </mime-type>
+  <mime-type type="text/x-rexx">
+    <glob>rexx</glob>
+  </mime-type>
+  <mime-type type="application/x-7z-compressed">
+    <glob>7z</glob>
+  </mime-type>
+  <mime-type type="application/x-roxio-toast">
+    <glob>toast</glob>
+  </mime-type>
+  <mime-type type="video/x-oggyuv">
+    <glob>ogv</glob>
+  </mime-type>
+  <mime-type type="application/vnd.novadigm.edx">
+    <glob>edx</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-visio.template.macroenabled.12">
+    <glob>vstm</glob>
+  </mime-type>
+  <mime-type type="model/mesh">
+    <glob>msh</glob>
+    <glob>mesh</glob>
+    <glob>silo</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.chart">
+    <glob>odc</glob>
+  </mime-type>
+  <mime-type type="image/jpeg">
+    <glob>jpg</glob>
+    <glob>jpeg</glob>
+    <glob>jpe</glob>
+    <glob>jif</glob>
+    <glob>jfif</glob>
+    <glob>jfi</glob>
+  </mime-type>
+  <mime-type type="image/x-raw-logitech">
+    <glob>pxn</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-excel.sheet.binary.macroenabled.12">
+    <glob>xlsb</glob>
+  </mime-type>
+  <mime-type type="video/x-flv">
+    <glob>flv</glob>
+  </mime-type>
+  <mime-type type="application/x-msclip">
+    <glob>clp</glob>
+  </mime-type>
+  <mime-type type="application/vnd.openofficeorg.extension">
+    <glob>oxt</glob>
+  </mime-type>
+  <mime-type type="image/aces">
+    <glob>exr</glob>
+  </mime-type>
+  <mime-type type="application/vnd.mobius.plc">
+    <glob>plc</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.spreadsheet">
+    <glob>ods</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml;format=val">
+    <glob>ditaval</glob>
+  </mime-type>
+  <mime-type type="application/vnd.adobe.xdp+xml">
+    <glob>xdp</glob>
+  </mime-type>
+  <mime-type type="application/x-ms-installer">
+    <glob>msi</glob>
+    <glob>msp</glob>
+    <glob>mst</glob>
+  </mime-type>
+  <mime-type type="application/vnd.chemdraw+xml">
+    <glob>cdxml</glob>
+  </mime-type>
+  <mime-type type="application/java-serialized-object">
+    <glob>ser</glob>
+  </mime-type>
+  <mime-type type="application/dita+xml;format=concept">
+    <glob>dita</glob>
+  </mime-type>
+  <mime-type type="application/vnd.oasis.opendocument.flat.text">
+    <glob>fodt</glob>
+  </mime-type>
+  <mime-type type="audio/amr-wb+">
+    <glob>amr</glob>
+  </mime-type>
+  <mime-type type="application/x-elc">
+    <glob>elc</glob>
+  </mime-type>
+  <mime-type type="application/sereal">
+    <glob>srl</glob>
+  </mime-type>
+  <mime-type type="application/vnd.crick.clicker.template">
+    <glob>clkt</glob>
+  </mime-type>
+  <mime-type type="text/x-python">
+    <glob>py</glob>
+  </mime-type>
+  <mime-type type="application/emma+xml">
+    <glob>emma</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.nuera.ecelp9600">
+    <glob>ecelp9600</glob>
+  </mime-type>
+  <mime-type type="text/vnd.curl.dcurl">
+    <glob>dcurl</glob>
+  </mime-type>
+  <mime-type type="application/x-vnd.datapackage+zip">
+    <glob>zip</glob>
+  </mime-type>
+  <mime-type type="application/vnd.zzazz.deck+xml">
+    <glob>zaz</glob>
+  </mime-type>
+  <mime-type type="audio/vnd.adobe.soundbooth">
+    <glob>asnd</glob>
+  </mime-type>
+  <mime-type type="application/xspf+xml">
+    <glob>xspf</glob>
+  </mime-type>
+  <mime-type type="application/vnd.ms-fontobject">
+    <glob>eot</glob>
+  </mime-type>
+</mime-info>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="/js/jquery.js" th:src="@{/js/jquery.js}"></script>
+<input type="file" name="file" id="file">
+<script>
+  const baseUrl = "http://localhost:18002";
+
+  // 文件选择之后就计算文件的md5值
+  document.getElementById("file").addEventListener("change", function () {
+    let file = this.files[0];
+    let formData = new FormData();
+    formData.append("file", file);
+    formData.append("fileType", getFileType(file.name));
+    console.log("")
+    sendFileToRemote(baseUrl + "/shard/upload", formData);
+  });
+
+
+
+
+
+  /**
+   * 将文件进行分片
+   * @param url {string} api地址
+   * @param formData {FormData} 分片的数据包
+   */
+  const sendFileToRemote = (url, formData) => {
+    $.ajax({
+      url,
+      type: 'POST',
+      data: formData,
+      async: true, //异步
+      dataType: 'json',
+      processData: false, //很重要，告诉jquery不要对form进行处理
+      contentType: false, //很重要，指定为false才能形成正确的Content-Type
+      success: function (msg) {
+        alert('success');
+      },
+    });
+  };
+  /**
+   * 获取文件的后缀名
+   */
+  function getFileType(fileName) {
+    return fileName.substr(fileName.lastIndexOf(".") + 1).toLowerCase();
+  }
+</script>
+
+</body>
+</html>

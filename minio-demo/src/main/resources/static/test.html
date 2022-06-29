@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" name="file" id="file">
+<script>
+    const baseUrl = "http://localhost:18002";
+    document.getElementById("file").addEventListener("change", function () {
+        let file = this.files[0];
+        PostFile(file, 0, "bacd");
+    });
+
+    function PostFile(file, i, md5) {
+        let name = file.name,                           //文件名
+            size = file.size,                           //总大小shardSize = 2 * 1024 * 1024,
+            shardSize = 5 * 1024 * 1024,                //以5MB为一个分片,每个分片的大小
+            shardCount = Math.ceil(size / shardSize);   //总片数
+        console.log("size", size);
+        console.log("shardSize", shardSize);
+
+        if (i >= shardCount) {
+            return;
+        }
+        let arr = new Array(shardCount);
+        for (let j = 0; j < shardCount; j++, i++) {
+            let start = i * shardSize;
+            let end = start + shardSize;
+            let packet = file.slice(start, end);  //切片后的数据
+            /*  构建form表单进行提交  */
+            let form = new FormData();
+            var from = {
+                md5 :md5,
+                name : name,
+                data: packet,
+                totalSize: size,
+                total: shardCount,
+                index: i + 1
+            }
+            // form.append("md5", md5);// 前端生成uuid作为标识符传个后台每个文件都是一个uuid防止文件串了
+            // form.append("data", packet); //slice方法用于切出文件的一部分
+            // form.append("name", name);
+            // form.append("totalSize", size);
+            // form.append("total", shardCount); //总片数
+            // form.append("index", i + 1); //当前是第几片
+            arr[i] = form;
+            console.log("第", i, "片 form", form);
+            form = '';
+        }
+        console.log("arr", arr);
+
+    }
+</script>
+
+</body>
+</html>
