@@ -11,6 +11,8 @@ import io.minio.messages.Item;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.checkerframework.checker.units.qual.A;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
@@ -33,12 +35,12 @@ public class MinioTemplate {
     /**
      * MinIO 客户端
      */
-    private MinioClient minioClient;
+    private final MinioClient minioClient;
 
     /**
      * MinIO 配置类
      */
-    private MinioConfig minioConfig;
+    private final MinioConfig minioConfig;
 
     /**
      * 查询所有存储桶
@@ -300,9 +302,9 @@ public class MinioTemplate {
     public void initDefaultBucket() {
         String defaultBucketName = minioConfig.getBucketName();
         if (bucketExists(defaultBucketName)) {
-            log.info("默认存储桶：defaultBucketName已存在");
+            log.info("默认存储桶：{}已存在", defaultBucketName);
         } else {
-            log.info("创建默认存储桶：defaultBucketName");
+            log.info("创建默认存储桶：{}", defaultBucketName);
             makeBucket(minioConfig.getBucketName());
         }
         ;

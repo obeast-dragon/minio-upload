@@ -5,7 +5,6 @@ import com.minio.entity.MockMultipartFile;
 import com.minio.exception.StatusCode;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
@@ -30,11 +29,15 @@ public class ShardFileUtil {
 //        String name = "C:\\Users\\WengX\\Desktop\\分片问题.md";
 //        String name = "C:\\Users\\WengX\\Desktop\\2222.rar";
         String name = "C:\\Users\\WengX\\Desktop\\2222.rar";
+        String name2 = "C:\\Users\\WengX\\Desktop\\1111.rar";
         String fileName = FileUtil.getName(name);
         File file = new File(name);
-        MultipartFile multipartFile = new MockMultipartFile(fileName ,new FileInputStream(name));
-        System.out.println(multipartFile.getName());
-        System.out.println(StringUtils.getFilenameExtension(multipartFile.getName()));
+        File file2 = new File(name2);
+        FileInputStream fileInputStream = new FileInputStream(file);
+        FileInputStream fileInputStream1 = new FileInputStream(file2);
+        System.out.println(Md5Util.calculateMd5(fileInputStream));
+        System.out.println(Md5Util.calculateMd5(fileInputStream1));
+//c3232cb67783d0d7b002701ed9c2a6d1
 
 
 //        File file1 = new File("temp");
@@ -95,7 +98,7 @@ public class ShardFileUtil {
             }
             InputStream inputStream = IOConvertUtil.oConvertI(bos);
             inputStreams.add(inputStream);
-            log.info("{} 文件分片成功！", file.getName());
+            log.info("{} 文件分片成功！开始准备分片上传", file.getName());
         } catch (Exception e) {
             log.error("文件分片失败！原因：{}", e.getMessage());
             e.printStackTrace();

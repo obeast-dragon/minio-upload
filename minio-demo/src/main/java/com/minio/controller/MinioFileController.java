@@ -1,6 +1,7 @@
 package com.minio.controller;
 
 
+import com.minio.service.MinioFileService;
 import com.minio.service.MinioService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ public class MinioFileController {
 
 
     @Autowired
-    private MinioService minioService;
+    private MinioFileService minioFileService;
 
     @RequestMapping(value = "/home/upload")
     public ModelAndView homeUpload() {
@@ -38,7 +39,7 @@ public class MinioFileController {
      */
     @GetMapping(value = "/check")
     public Map<String, Object> checkFileExists(String md5) {
-        return minioService.checkFileExists(md5);
+        return minioFileService.checkFileExists(md5);
     }
 
 
@@ -47,7 +48,7 @@ public class MinioFileController {
      */
     @PostMapping(value = "/upload")
     public Map<String, Object> upload(HttpServletRequest req) {
-        return minioService.upload(req);
+        return minioFileService.upload(req);
 
     }
 
@@ -64,7 +65,7 @@ public class MinioFileController {
     @GetMapping(value = "/merge")
     public Map<String, Object> merge(Integer shardCount, String fileName, String md5, String fileType,
                                      Long fileSize) {
-        return minioService.merge(shardCount, fileName, md5, fileType, fileSize);
+        return minioFileService.merge(shardCount, fileName, md5, fileType, fileSize);
     }
 
 }

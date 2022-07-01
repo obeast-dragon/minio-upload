@@ -4,6 +4,7 @@ package com.minio.controller;
 import cn.hutool.json.JSONException;
 import cn.hutool.json.JSONObject;
 import com.minio.entity.R;
+import com.minio.entity.ResponseEntry;
 import com.minio.exception.StatusCode;
 import com.minio.service.MinioService;
 import lombok.extern.slf4j.Slf4j;
@@ -17,6 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+
+
 @RestController
 @RequestMapping(value = "/shard")
 @Slf4j
@@ -26,17 +29,20 @@ public class MinioController {
     @Autowired
     private MinioService minioService;
 
+    @Autowired
+    private ResponseEntry res;
+
     @PostMapping(value = "/upload")
-    public R upload(HttpServletRequest httpServletRequest){
-        HttpSession session = httpServletRequest.getSession();
+    public R upload(HttpServletRequest httpServletRequest) {
         MultipartHttpServletRequest request = (MultipartHttpServletRequest) httpServletRequest;
         MultipartFile multipartFile = request.getFile("file");
-//        String fileType = request.getParameter("fileType");
-        if (multipartFile != null){
-            String filenameExtension = StringUtils.getFilenameExtension(multipartFile.getName());
-            minioService.uploadShard(multipartFile, session, filenameExtension);
-
-        }else {
+        if (multipartFile != null) {
+            res.put("stopStatus", true);
+            res.put("fileName", multipartFile.getOriginalFilename());
+            res.put("fileSize", multipartFile.getSize());
+            String filenameExtension = StringUtils.getFilenameExtension(multipartFile.getOriginalFilename());
+            minioService.uploadShard(multipartFile, res, filenameExtension);
+        } else {
             return R.error(StatusCode.FOUND.getCode(), StatusCode.FILE_IS_NULL.getMessage());
         }
         return R.ok();
@@ -50,29 +56,50 @@ public class MinioController {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("index");
         return modelAndView;
-
     }
+
+    @RequestMapping(value = "/stopStatus")
+    public void setStopStatus(HttpServletRequest request) {
+        /**
+         * 1 -> true 上传
+         * 0 -> false 暂停
+         * */
+        String strStopStatus = request.getParameter("stopStatus");
+        boolean stopStatus = strStopStatus.equals("1");
+        res.put("stopStatus", stopStatus);
+        log.info("上传暂停 {}", stopStatus);
+    }
+
 
     /**
      * 获取实现上传进度
      */
     @GetMapping(value = "/percent", produces = "application/json;charset=UTF-8")
-    public R getUploadPercent(HttpServletRequest request) {
-        HttpSession session = request.getSession();
-        int percent = session.getAttribute("uploadPercent") == null ? 0 : (int) session.getAttribute("uploadPercent");
-        String uploadSize = session.getAttribute("uploadSize") == null ? null : (String) session.getAttribute("uploadSize");
-        String fileSize = session.getAttribute("fileSize") == null ? null : (String) session.getAttribute("fileSize");
-        log.info("上传进度{}已经上传大小{}", percent, uploadSize);
+    public R getUploadPercent() {
+        String uploadPercent = res.get("uploadPercent") == null ? "0" : String.valueOf(res.get("uploadPercent"));
+        String uploadSize = res.get("uploadSize") == null ? "0" : String.valueOf(res.get("uploadSize"));
+        String fileSize = res.get("fileSize") == null ? "0" : String.valueOf(res.get("fileSize"));
         JSONObject data = new JSONObject();
         try {
-            data.append("fileName", session.getAttribute("fileName"));
-            data.append("uploadPercent", percent);
-            data.append("fileSize", fileSize);
+            data.append("uploadPercent", uploadPercent);
             data.append("uploadSize", uploadSize);
+            data.append("fileSize", fileSize);
+            data.append("fileName", res.get("fileName"));
         } catch (JSONException e) {
             log.error("上传进度查询失败{}", e.getMessage());
         }
         return R.ok().put("obj", data);
+    }
+
+
+    /**
+     * 重置上传进度
+     **/
+    @RequestMapping("/resetPercent")
+    @ResponseBody
+    public String resetPercent() {
+        res.put("uploadPercent", 0);
+        return "重置进度";
     }
 
 
