@@ -7,6 +7,7 @@ import com.minio.dao.Md5FileNameDao;
 import com.minio.entity.*;
 import com.minio.exception.StatusCode;
 import com.minio.service.MinioService;
+import com.minio.service.SseEmitterService;
 import com.minio.template.MinioTemplate;
 import com.minio.util.Md5Util;
 
@@ -47,6 +48,9 @@ public class MinioServiceImpl implements MinioService {
 
     @Autowired
     Md5FileNameDao md5FileNameDao;
+
+    @Autowired
+    SseEmitterService sseEmitterService;
 
     private static final ExecutorService executorService = Executors.newFixedThreadPool(5);
 
@@ -136,7 +140,7 @@ public class MinioServiceImpl implements MinioService {
                         stopStatus = (boolean) res.get("stopStatus");
                         if (stopStatus) {
                             int c = Integer.parseInt(containStr.get(i));
-                            executorService.execute(new BranchThread(inputStreams.get(c - 1), md5BucketName, c, res, countDownLatch, shardCount, stopStatus, minioTemplate));
+                            executorService.execute(new BranchThread(inputStreams.get(c - 1), md5BucketName, c, res, countDownLatch, shardCount, stopStatus, minioTemplate, sseEmitterService));
                         } else {
                             executorService.shutdown();
                             break;
@@ -184,7 +188,7 @@ public class MinioServiceImpl implements MinioService {
             for (int i = 0; i < shardCount; i++) {
                 stopStatus = (boolean) res.get("stopStatus");
                 if (stopStatus) {
-                    executorService.execute(new BranchThread(inputStreams.get(i), md5BucketName, i + 1, res, countDownLatch, shardCount, stopStatus, minioTemplate));
+                    executorService.execute(new BranchThread(inputStreams.get(i), md5BucketName, i + 1, res, countDownLatch, shardCount, stopStatus, minioTemplate, sseEmitterService));
                 } else {
                     executorService.shutdown();
                     break;
@@ -298,8 +302,12 @@ public class MinioServiceImpl implements MinioService {
          * template
          */
         private final MinioTemplate minioTemplate;
+        /**
+         * sse发给前端的服务
+         * */
+        private final SseEmitterService sseEmitterService;
 
-        public BranchThread(InputStream inputStream, String md5BucketName, Integer curIndex, ResponseEntry res, CountDownLatch countDownLatch, long shardCount, boolean stopStatus, MinioTemplate minioTemplate) {
+        public BranchThread(InputStream inputStream, String md5BucketName, Integer curIndex, ResponseEntry res, CountDownLatch countDownLatch, long shardCount, boolean stopStatus, MinioTemplate minioTemplate, SseEmitterService sseEmitterService) {
             this.inputStream = inputStream;
             this.md5BucketName = md5BucketName;
             this.curIndex = curIndex;
@@ -308,6 +316,7 @@ public class MinioServiceImpl implements MinioService {
             this.shardCount = shardCount;
             this.stopStatus = stopStatus;
             this.minioTemplate = minioTemplate;
+            this.sseEmitterService = sseEmitterService;
         }
 
         @SneakyThrows
@@ -323,6 +332,7 @@ public class MinioServiceImpl implements MinioService {
                     //设置上传文件大小
                     res.put("uploadSize", inputStream.available());
                     log.info("uploadSize：{}", inputStream.available());
+                    sseEmitterService.sendResMapToOneClient(String.valueOf(res.get("clientId")), res);
                     OssFile ossFile = minioTemplate.putChunkObject(inputStream, md5BucketName, curIndexName);
                     log.info("上传成功 {}", ossFile);
                 } else {
